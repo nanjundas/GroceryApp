@@ -38,6 +38,20 @@
 			remoteGlobalIDString = 67BE4D7321B3516300DDB9B1;
 			remoteInfo = GroceryApp;
 		};
+		67DB704621B3F4D8008C5F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67DB704121B3F4D6008C5F34 /* GroceryAppCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 67DB702721B3F4D6008C5F34;
+			remoteInfo = GroceryAppCore;
+		};
+		67DB704821B3F4D8008C5F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67DB704121B3F4D6008C5F34 /* GroceryAppCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 67DB703021B3F4D6008C5F34;
+			remoteInfo = GroceryAppCoreTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +74,7 @@
 		67BE4D9921B3516400DDB9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67BE4DAA21B3559200DDB9B1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		67BE4DAD21B3563C00DDB9B1 /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		67DB704121B3F4D6008C5F34 /* GroceryAppCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GroceryAppCore.xcodeproj; path = GroceryAppCore/GroceryAppCore.xcodeproj; sourceTree = "<group>"; };
 		84AFC8127BF5A382823D56EA /* Pods-GroceryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroceryAppTests/Pods-GroceryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DA6C4C22BA89DD4E6579D5D /* Pods_GroceryAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9C6106A86096B739C62061 /* Pods_GroceryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +123,7 @@
 		67BE4D6B21B3516300DDB9B1 = {
 			isa = PBXGroup;
 			children = (
+				67DB704121B3F4D6008C5F34 /* GroceryAppCore.xcodeproj */,
 				67BE4D7621B3516300DDB9B1 /* GroceryApp */,
 				67BE4D8B21B3516400DDB9B1 /* GroceryAppTests */,
 				67BE4D9621B3516400DDB9B1 /* GroceryAppUITests */,
@@ -176,6 +192,15 @@
 				6750508821B3D65500B929D6 /* AppConsts.swift */,
 			);
 			path = Misc;
+			sourceTree = "<group>";
+		};
+		67DB704221B3F4D6008C5F34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67DB704721B3F4D8008C5F34 /* GroceryAppCore.framework */,
+				67DB704921B3F4D8008C5F34 /* GroceryAppCoreTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		761C95C310DC5FC80C6C7E1F /* Pods */ = {
@@ -295,6 +320,12 @@
 			mainGroup = 67BE4D6B21B3516300DDB9B1;
 			productRefGroup = 67BE4D7521B3516300DDB9B1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 67DB704221B3F4D6008C5F34 /* Products */;
+					ProjectRef = 67DB704121B3F4D6008C5F34 /* GroceryAppCore.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				67BE4D7321B3516300DDB9B1 /* GroceryApp */,
@@ -303,6 +334,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		67DB704721B3F4D8008C5F34 /* GroceryAppCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GroceryAppCore.framework;
+			remoteRef = 67DB704621B3F4D8008C5F34 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		67DB704921B3F4D8008C5F34 /* GroceryAppCoreTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GroceryAppCoreTests.xctest;
+			remoteRef = 67DB704821B3F4D8008C5F34 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		67BE4D7221B3516300DDB9B1 /* Resources */ = {
