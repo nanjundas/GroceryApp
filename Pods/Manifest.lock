@@ -1,0 +1,30 @@
+PODS:
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
+  - Realm (3.12.0):
+    - Realm/Headers (= 3.12.0)
+  - Realm/Headers (3.12.0)
+  - RealmSwift (3.12.0):
+    - Realm (= 3.12.0)
+
+DEPENDENCIES:
+  - IGListKit
+  - RealmSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IGListKit
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  Realm: cdaef23c4ddb36ab1ddffed23f5a7f3332fc5585
+  RealmSwift: 5576324033f0aa5ef1e0a839a3da2281dff47a7f
+
+PODFILE CHECKSUM: bf6fe2c90982a305b738c909754f9d6223ca7b83
+
+COCOAPODS: 1.5.3
