@@ -7,9 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08AE7ECD8CC815B07C8F0FB4 /* Pods_GroceryAppCoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E2BF6680388E7D3ECC954A /* Pods_GroceryAppCoreTests.framework */; };
+		679C35D121B40C33006F963E /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C35D021B40C33006F963E /* APIRequest.swift */; };
+		679C35D321B40CC6006F963E /* URLRequest_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C35D221B40CC6006F963E /* URLRequest_Base.swift */; };
+		679C35D821B41D70006F963E /* ObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C35D721B41D70006F963E /* ObjectProtocol.swift */; };
+		679C35DA21B424B0006F963E /* DataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C35D921B424B0006F963E /* DataManagerTests.swift */; };
 		67DB703121B3F4D6008C5F34 /* GroceryAppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DB702721B3F4D6008C5F34 /* GroceryAppCore.framework */; };
 		67DB703621B3F4D6008C5F34 /* GroceryAppCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DB703521B3F4D6008C5F34 /* GroceryAppCoreTests.swift */; };
 		67DB703821B3F4D6008C5F34 /* GroceryAppCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 67DB702A21B3F4D6008C5F34 /* GroceryAppCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67DB705C21B3F5D7008C5F34 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DB705621B3F5D7008C5F34 /* DataManager.swift */; };
+		67DB705D21B3F5D7008C5F34 /* DataManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DB705721B3F5D7008C5F34 /* DataManagerError.swift */; };
+		67DB706021B3F5D7008C5F34 /* DataManagerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DB705B21B3F5D7008C5F34 /* DataManagerResult.swift */; };
+		67DB706221B3F633008C5F34 /* DataManagerQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DB706121B3F633008C5F34 /* DataManagerQuery.swift */; };
+		67DB706521B3F6B5008C5F34 /* URLPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DB706421B3F6B5008C5F34 /* URLPath.swift */; };
+		67DB706721B3F796008C5F34 /* URLEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DB706621B3F796008C5F34 /* URLEncoder.swift */; };
+		67DB706A21B3F805008C5F34 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DB706921B3F805008C5F34 /* Search.swift */; };
+		67DB706D21B3F86F008C5F34 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DB706C21B3F86F008C5F34 /* Product.swift */; };
+		67DB706F21B3FA02008C5F34 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DB706E21B3FA02008C5F34 /* Extensions.swift */; };
+		B74F60129096007E8E206DFA /* Pods_GroceryAppCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFA9FEFBE48DE22369027BE /* Pods_GroceryAppCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +38,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		060B886C0BA66C442B18C6A1 /* Pods-GroceryAppCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryAppCore.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GroceryAppCore/Pods-GroceryAppCore.release.xcconfig"; sourceTree = "<group>"; };
+		0C52AC8BF661D3095106A419 /* Pods-GroceryAppCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryAppCoreTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GroceryAppCoreTests/Pods-GroceryAppCoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		0EFA9FEFBE48DE22369027BE /* Pods_GroceryAppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryAppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		224148AAC3BA49DAAA0FD921 /* Pods-GroceryAppCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryAppCore.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GroceryAppCore/Pods-GroceryAppCore.debug.xcconfig"; sourceTree = "<group>"; };
+		679C35D021B40C33006F963E /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		679C35D221B40CC6006F963E /* URLRequest_Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest_Base.swift; sourceTree = "<group>"; };
+		679C35D721B41D70006F963E /* ObjectProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectProtocol.swift; sourceTree = "<group>"; };
+		679C35D921B424B0006F963E /* DataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerTests.swift; sourceTree = "<group>"; };
 		67DB702721B3F4D6008C5F34 /* GroceryAppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GroceryAppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67DB702A21B3F4D6008C5F34 /* GroceryAppCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroceryAppCore.h; sourceTree = "<group>"; };
 		67DB702B21B3F4D6008C5F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67DB703021B3F4D6008C5F34 /* GroceryAppCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryAppCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67DB703521B3F4D6008C5F34 /* GroceryAppCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryAppCoreTests.swift; sourceTree = "<group>"; };
 		67DB703721B3F4D6008C5F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67DB705621B3F5D7008C5F34 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		67DB705721B3F5D7008C5F34 /* DataManagerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManagerError.swift; sourceTree = "<group>"; };
+		67DB705B21B3F5D7008C5F34 /* DataManagerResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManagerResult.swift; sourceTree = "<group>"; };
+		67DB706121B3F633008C5F34 /* DataManagerQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerQuery.swift; sourceTree = "<group>"; };
+		67DB706421B3F6B5008C5F34 /* URLPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLPath.swift; sourceTree = "<group>"; };
+		67DB706621B3F796008C5F34 /* URLEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncoder.swift; sourceTree = "<group>"; };
+		67DB706921B3F805008C5F34 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		67DB706C21B3F86F008C5F34 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		67DB706E21B3FA02008C5F34 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7520D1B7D2ECE9A9AA0B857E /* Pods-GroceryAppCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryAppCoreTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GroceryAppCoreTests/Pods-GroceryAppCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77E2BF6680388E7D3ECC954A /* Pods_GroceryAppCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryAppCoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B74F60129096007E8E206DFA /* Pods_GroceryAppCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +79,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				67DB703121B3F4D6008C5F34 /* GroceryAppCore.framework in Frameworks */,
+				08AE7ECD8CC815B07C8F0FB4 /* Pods_GroceryAppCoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CEAAEDDD64BF4656D5FF081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EFA9FEFBE48DE22369027BE /* Pods_GroceryAppCore.framework */,
+				77E2BF6680388E7D3ECC954A /* Pods_GroceryAppCoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		67DB701D21B3F4D6008C5F34 = {
 			isa = PBXGroup;
 			children = (
 				67DB702921B3F4D6008C5F34 /* GroceryAppCore */,
 				67DB703421B3F4D6008C5F34 /* GroceryAppCoreTests */,
 				67DB702821B3F4D6008C5F34 /* Products */,
+				7FF4BF52CD2A2E498AC9BAF0 /* Pods */,
+				4CEAAEDDD64BF4656D5FF081 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +118,9 @@
 		67DB702921B3F4D6008C5F34 /* GroceryAppCore */ = {
 			isa = PBXGroup;
 			children = (
+				67DB707021B3FA08008C5F34 /* Misc */,
+				67DB706B21B3F84E008C5F34 /* Model */,
+				67DB705521B3F5D7008C5F34 /* DataManager */,
 				67DB702A21B3F4D6008C5F34 /* GroceryAppCore.h */,
 				67DB702B21B3F4D6008C5F34 /* Info.plist */,
 			);
@@ -80,10 +130,79 @@
 		67DB703421B3F4D6008C5F34 /* GroceryAppCoreTests */ = {
 			isa = PBXGroup;
 			children = (
+				679C35D921B424B0006F963E /* DataManagerTests.swift */,
 				67DB703521B3F4D6008C5F34 /* GroceryAppCoreTests.swift */,
 				67DB703721B3F4D6008C5F34 /* Info.plist */,
 			);
 			path = GroceryAppCoreTests;
+			sourceTree = "<group>";
+		};
+		67DB705521B3F5D7008C5F34 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				67DB706921B3F805008C5F34 /* Search.swift */,
+				67DB706821B3F7EC008C5F34 /* Base */,
+				67DB705821B3F5D7008C5F34 /* API */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		67DB705821B3F5D7008C5F34 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				67DB706321B3F6AD008C5F34 /* Url */,
+				679C35D021B40C33006F963E /* APIRequest.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		67DB706321B3F6AD008C5F34 /* Url */ = {
+			isa = PBXGroup;
+			children = (
+				67DB706421B3F6B5008C5F34 /* URLPath.swift */,
+				67DB706621B3F796008C5F34 /* URLEncoder.swift */,
+				679C35D221B40CC6006F963E /* URLRequest_Base.swift */,
+			);
+			path = Url;
+			sourceTree = "<group>";
+		};
+		67DB706821B3F7EC008C5F34 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				67DB705621B3F5D7008C5F34 /* DataManager.swift */,
+				67DB705721B3F5D7008C5F34 /* DataManagerError.swift */,
+				67DB705B21B3F5D7008C5F34 /* DataManagerResult.swift */,
+				67DB706121B3F633008C5F34 /* DataManagerQuery.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		67DB706B21B3F84E008C5F34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				679C35D721B41D70006F963E /* ObjectProtocol.swift */,
+				67DB706C21B3F86F008C5F34 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67DB707021B3FA08008C5F34 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				67DB706E21B3FA02008C5F34 /* Extensions.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		7FF4BF52CD2A2E498AC9BAF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				224148AAC3BA49DAAA0FD921 /* Pods-GroceryAppCore.debug.xcconfig */,
+				060B886C0BA66C442B18C6A1 /* Pods-GroceryAppCore.release.xcconfig */,
+				7520D1B7D2ECE9A9AA0B857E /* Pods-GroceryAppCoreTests.debug.xcconfig */,
+				0C52AC8BF661D3095106A419 /* Pods-GroceryAppCoreTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67DB703B21B3F4D6008C5F34 /* Build configuration list for PBXNativeTarget "GroceryAppCore" */;
 			buildPhases = (
+				B1F1ACFD85B7C6C83020FF2B /* [CP] Check Pods Manifest.lock */,
 				67DB702221B3F4D6008C5F34 /* Headers */,
 				67DB702321B3F4D6008C5F34 /* Sources */,
 				67DB702421B3F4D6008C5F34 /* Frameworks */,
@@ -122,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67DB703E21B3F4D6008C5F34 /* Build configuration list for PBXNativeTarget "GroceryAppCoreTests" */;
 			buildPhases = (
+				29F65EDA5F792178BA44203D /* [CP] Check Pods Manifest.lock */,
 				67DB702C21B3F4D6008C5F34 /* Sources */,
 				67DB702D21B3F4D6008C5F34 /* Frameworks */,
 				67DB702E21B3F4D6008C5F34 /* Resources */,
+				DCA44B09AF828D70A391A4AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,11 +311,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29F65EDA5F792178BA44203D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GroceryAppCoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1F1ACFD85B7C6C83020FF2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GroceryAppCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA44B09AF828D70A391A4AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-GroceryAppCoreTests/Pods-GroceryAppCoreTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-GroceryAppCoreTests/Pods-GroceryAppCoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		67DB702321B3F4D6008C5F34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67DB706A21B3F805008C5F34 /* Search.swift in Sources */,
+				67DB706021B3F5D7008C5F34 /* DataManagerResult.swift in Sources */,
+				67DB706521B3F6B5008C5F34 /* URLPath.swift in Sources */,
+				67DB705D21B3F5D7008C5F34 /* DataManagerError.swift in Sources */,
+				679C35D121B40C33006F963E /* APIRequest.swift in Sources */,
+				67DB706221B3F633008C5F34 /* DataManagerQuery.swift in Sources */,
+				67DB706D21B3F86F008C5F34 /* Product.swift in Sources */,
+				67DB706721B3F796008C5F34 /* URLEncoder.swift in Sources */,
+				679C35D821B41D70006F963E /* ObjectProtocol.swift in Sources */,
+				67DB706F21B3FA02008C5F34 /* Extensions.swift in Sources */,
+				67DB705C21B3F5D7008C5F34 /* DataManager.swift in Sources */,
+				679C35D321B40CC6006F963E /* URLRequest_Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679C35DA21B424B0006F963E /* DataManagerTests.swift in Sources */,
 				67DB703621B3F4D6008C5F34 /* GroceryAppCoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +548,7 @@
 		};
 		67DB703C21B3F4D6008C5F34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 224148AAC3BA49DAAA0FD921 /* Pods-GroceryAppCore.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -365,6 +574,7 @@
 		};
 		67DB703D21B3F4D6008C5F34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060B886C0BA66C442B18C6A1 /* Pods-GroceryAppCore.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -390,7 +600,9 @@
 		};
 		67DB703F21B3F4D6008C5F34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7520D1B7D2ECE9A9AA0B857E /* Pods-GroceryAppCoreTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CB5974C5MB;
 				INFOPLIST_FILE = GroceryAppCoreTests/Info.plist;
@@ -408,7 +620,9 @@
 		};
 		67DB704021B3F4D6008C5F34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C52AC8BF661D3095106A419 /* Pods-GroceryAppCoreTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CB5974C5MB;
 				INFOPLIST_FILE = GroceryAppCoreTests/Info.plist;

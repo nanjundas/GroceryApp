@@ -37,6 +37,7 @@
 		1A65BAEA504A6FFB7CBC95183B394CEF /* work_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 357257B6CD069F74E0964A0CB561114B /* work_queue.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		1B0D011F98C55F522E92CD0DA6FC8969 /* IGListGenericSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E8F799867E2FB9C2322763315EC144 /* IGListGenericSectionController.m */; };
 		1BDAA18D89FD0E30E44F37037E6115AC /* primitive_list_notifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F8C5832F1967D849CA6555A076FABD0 /* primitive_list_notifier.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		1CD9C60D3E237A06AC0DE42D6093CBE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1845FCE3C77ABE6C8BAA48DE597A9A2 /* Foundation.framework */; };
 		1CDFFAFDF4B463830F1156DEEC2AFB15 /* RLMRealmConfiguration.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6B7318118DEC23243A4922FD5E55527E /* RLMRealmConfiguration.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		1DAF3C69AD065695FAB65BF49DA326BA /* RLMArray.mm in Sources */ = {isa = PBXBuildFile; fileRef = DE54BC7D7F8D8BCA04B70FF1126514FE /* RLMArray.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		1ED7D3BB32761BE155E35F7A198472D7 /* RLMProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E6298B1241AEC6DBBC00BDB32241B8D /* RLMProperty.h */; };
@@ -45,6 +46,7 @@
 		2279AB89F90CA3C9B1B4C91908D84A42 /* RLMRealmConfiguration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA81976906602D6C36973576D05B1A6 /* RLMRealmConfiguration_Private.h */; };
 		234DA7EE97508A3260EF2831350A6C9B /* RLMProperty.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 1E6298B1241AEC6DBBC00BDB32241B8D /* RLMProperty.h */; };
 		243DD3F0EA21AB62C63882E7145D34D5 /* RLMSyncSubscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C70690F524BDEC59C34A288CE98D80F /* RLMSyncSubscription.h */; };
+		26BA542037C747C003F987512821F118 /* Pods-GroceryAppCoreTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBD38B63DF4DD5F36F15FDB9A0E9DF7 /* Pods-GroceryAppCoreTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2837DB66365B038F99462B6E3A5D5232 /* ObjectSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E4B5D49C4DEF56FA8C2F418ED2F8EB /* ObjectSchema.swift */; };
 		28BF0A2A1F809D273C2F662FC788248E /* IGListCollectionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 8741A534FB1AC3BAA56E32DC5772D6D0 /* IGListCollectionContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29C6037C9F6334071DDD714A2648FF65 /* IGListSectionControllerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 899B28C90DCCAEC69AC59A932F67C3BB /* IGListSectionControllerInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -86,7 +88,7 @@
 		467CD05C38B8449E525B52A2C775B6BF /* sync_permission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AC83A661EB9D25E7EAD21CCD6AA281F /* sync_permission.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		475506ED4105A3876BD40A267FA0AB60 /* IGListSingleSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA6B2DFDD081F05A5E14FC33F4DC3C6 /* IGListSingleSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49692507A6369EB86711A65912F0E1CA /* list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80DE1EEDD9724F8CD5E954BF7DF89633 /* list.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		49A277BE4214D32A9E109E6D0DF37747 /* Pods-GroceryAppCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50CA9E5F5E16BC8FE5D7931EA3E1F1A4 /* Pods-GroceryAppCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A277BE4214D32A9E109E6D0DF37747 /* Pods-GroceryAppCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AC232AC1F3AF1CE517FE5CE5EB05F7 /* Pods-GroceryAppCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49E1BD5D9866789D48391818270A4E13 /* index_set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 455B55816CF1518C0165DDE4C3471A57 /* index_set.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		4AD6A2DAF64DD0C7CC7FC09C9A6C3C94 /* RealmSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3382E6310816CA52951E851B85C6566 /* RealmSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AF06B314BA01E35629985A4FD4B356F /* RLMObservation.mm in Sources */ = {isa = PBXBuildFile; fileRef = FED9E6C423A9485977350E4C43D3C2CF /* RLMObservation.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -130,6 +132,7 @@
 		6C6107D290BCF3DCFD17ACA942E245AA /* RLMObjectBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = B09495BB1C43B787AA2E538C75C46EB9 /* RLMObjectBase.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		6D6CE09A4EB398292FE249CF1DA9ACB2 /* RealmConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6253EAC752AFC350130E061F04F61B0C /* RealmConfiguration.swift */; };
 		6F3811B2C223A8E1649470A88604A3D7 /* RLMSchema_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = C95471493812C6584E7DC7DF43227BA1 /* RLMSchema_Private.h */; };
+		6FAC3AD321BFEA12E8F7F8BFE1B239F7 /* Pods-GroceryAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB91333B1EF71AAAC7FEE6552C251920 /* Pods-GroceryAppUITests-dummy.m */; };
 		702ED335C857388555C3D3053E62E156 /* RLMPlatform.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 93D85CF98684EAC60CCD8A3F4FC28D52 /* RLMPlatform.h */; };
 		703E9EF0E0F21D0878CCDF788DC71988 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3F98DBAD5903F7561D915DB93B71B8 /* Schema.swift */; };
 		715165B6EBA06AC3E642D22EC11EA035 /* ObjectiveCSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9531E52AC179EC607E6219E27BCA8 /* ObjectiveCSupport.swift */; };
@@ -142,12 +145,13 @@
 		77ADEC72A2A6B193843F890D1521BFF0 /* RLMSyncManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AE511348941D801CE5A38B37E0E76DB /* RLMSyncManager.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		78CC680D713ED23F06944DD7450B2264 /* IGListAdapterUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E55069219986E2A5CB487AD72E3F97D /* IGListAdapterUpdater.m */; };
 		79D62D1B5C8471A37166086C85E51130 /* IGListAdapterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D2754FEDE39976E66F3FDDC7E2FACB /* IGListAdapterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AB7C61996DC1474C1612ECD406B11A2 /* Pods-GroceryAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 724693B6BE432625CC831FA2C57B7981 /* Pods-GroceryAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CFAF3E710802F7E3334C1BD72054ADE /* object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 823C2F9E46D0A1D8490EBCC9FBDA51DD /* object.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		7DDD12ECF790026FCFB61965033011D3 /* RLMRealmConfiguration+Sync.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FCCE2CFA673ECD45E9C89F60E80173C /* RLMRealmConfiguration+Sync.h */; };
 		7E92629ED2E527635AB5F1AB46689DB6 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EEFDBE54229CED25F80B1210F18B0 /* Optional.swift */; };
 		813E2B523BE9961ABEF70981CE1ACE30 /* RLMObjectSchema.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 06E90563670521AA5F00ECE456DBEA05 /* RLMObjectSchema.h */; };
 		81E78D4EC1A99FA5852C2523F8A5E123 /* sync_session.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86A89BB9AF317AEDEEED68657CA51D96 /* sync_session.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		82432B80A37A51D0C7AD54C6D192AFA5 /* Pods-GroceryApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5559B0A68C907558C213607C3FB5AC25 /* Pods-GroceryApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82432B80A37A51D0C7AD54C6D192AFA5 /* Pods-GroceryApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB3BAFEB17A9208857E1CACED76C30E /* Pods-GroceryApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82A68B879D7DF885F3753FF37787F14E /* IGListTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5314730368C785316994C5265C9891D2 /* IGListTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8368DF2FF8EC3C1551206E0F03FD9332 /* RLMArray_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 34B7468FB8E99AE3E6187FD625227AD8 /* RLMArray_Private.h */; };
 		84FA5B01A2F4D5FF2C5B306340C2B9C1 /* IGListMoveIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = B63284D6255CC41A2150136818CE059B /* IGListMoveIndex.m */; };
@@ -160,6 +164,7 @@
 		8AB3596DE76D200DB4D24C0B9B2D1DAD /* IGListAdapterUpdateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8FC5BBB2FBE2C77CF2BD73259C59A5 /* IGListAdapterUpdateListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AE9F224E7269EACF9D6EBB8A62EB39F /* IGListBatchUpdates.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AF6E6CEBEBA00ECF56E67BC2445C70 /* IGListBatchUpdates.m */; };
 		8CAEE5BE95AEA585F08B692B4D887B13 /* collection_notifications.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C87B9FCF89EF4A628745BA6AE9B80 /* collection_notifications.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		8DB56EEC5AFE996793D825895CF0EA39 /* Pods-GroceryAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9902F469775D1A6FC32B49E485CF3778 /* Pods-GroceryAppTests-dummy.m */; };
 		8EB242686B2A56660E287B25FC1DD74B /* RLMAccessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED9A0DFDF84C1C32422FA2142422DE6F /* RLMAccessor.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		8F200EF370FE9546423D82AAF2BFFBBE /* RLMAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B979489613B1A0B99655366E7C15FF /* RLMAccessor.h */; };
 		8F43B2832DA77127CAC4620EFD87A8C0 /* IGListAdapterUpdaterInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F33AE3EB4754E351FADC4165E3541C6 /* IGListAdapterUpdaterInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -179,7 +184,7 @@
 		96F82B5C27378B2F09D4A5B40AFA8278 /* IGListAdapterDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F063A42D914133C45BFB68BF6CBADF16 /* IGListAdapterDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9731420A36D5208025747A70A0F953D7 /* RLMListBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5854AABB69D0ED9E6EE0B71FFE98A617 /* RLMListBase.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		973EEB8CDC6B7CDE8727C9C62E924AE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1845FCE3C77ABE6C8BAA48DE597A9A2 /* Foundation.framework */; };
-		9795F42CEA76EC18CA9CFDC847883ECF /* Pods-GroceryApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B1864E0EBE23AC38E97703E8CDCEC4 /* Pods-GroceryApp-dummy.m */; };
+		9795F42CEA76EC18CA9CFDC847883ECF /* Pods-GroceryApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC8BAADDA5D15A645AB6EAC271E8DB1 /* Pods-GroceryApp-dummy.m */; };
 		981011667AC425E94DEED50AE057210B /* Realm.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD3C2D81520CACDF77510B8C96EBA3F /* Realm.h */; };
 		982921A92B9C127020B40B75A0B7D83D /* IGListBatchUpdateData+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F12525E699AE117949073BB407773EF /* IGListBatchUpdateData+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		982F4BDDFDDCC6F1500BB320C1898DAA /* RLMRealm_Dynamic.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 6592651642813B22719D8B78F8547969 /* RLMRealm_Dynamic.h */; };
@@ -197,7 +202,7 @@
 		9FA6A6FD8081706769B28E2CC512232D /* RLMSyncCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED929840346690A2EA31E783329FA80 /* RLMSyncCredentials.h */; };
 		9FF080ED9EE6BC22802F8322F98F2DAC /* results.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AA394E8D976F3481F800EDABFCF7BA4 /* results.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		A05AA353249C300957D4E0D05F6E4DFB /* IGListBindingSectionController+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B5B578D755442726A8BCEB061DD803 /* IGListBindingSectionController+DebugDescription.m */; };
-		A05D0C2BF69C19E4FA53ED6DC154DB5A /* Pods-GroceryAppCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 724C96805BD6EC6BF4B140F6A37C890A /* Pods-GroceryAppCore-dummy.m */; };
+		A05D0C2BF69C19E4FA53ED6DC154DB5A /* Pods-GroceryAppCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF14C7D35870CC5C033CB53F26AB041 /* Pods-GroceryAppCore-dummy.m */; };
 		A08F33A1A06338B2A50AE9CE863600B3 /* RLMCollection_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 245229F58720FC0B98EEC069AFA8268F /* RLMCollection_Private.h */; };
 		A0ACA470BE0740C4AE46F27365A4EFE7 /* RLMObjectStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A9360C31341FAB53771CF2CAACB0661 /* RLMObjectStore.h */; };
 		A0C8045BEEE4FDDEC8898EFEBB33D9CC /* IGListBindingSectionControllerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CAD20F7140F704D560F2CA19C80F1D /* IGListBindingSectionControllerDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -267,6 +272,7 @@
 		CD2ED5F061F6786EA91EE3126D287B96 /* IGListWorkingRangeHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0656973823A8E6DC7A31CB5AC9D5EA3D /* IGListWorkingRangeHandler.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CE1CDEFB81CDF88DA41C56768D7A5D4E /* IGListBatchUpdateData.h in Headers */ = {isa = PBXBuildFile; fileRef = C00C8EACCD6240EB0107B0F9AA81EBDE /* IGListBatchUpdateData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE95F2851BF15CAD0D2FB45EBC8E8DA6 /* RLMResults.h in Headers */ = {isa = PBXBuildFile; fileRef = 3586D886449B9E77F7C92422035184A0 /* RLMResults.h */; };
+		CF3B3C8F19689281327E7188B8960817 /* Pods-GroceryAppCoreTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3989B5E67245B60D7AE793F5B0F94F3 /* Pods-GroceryAppCoreTests-dummy.m */; };
 		D040AEAAA2D8A1C190F13B930B1EB8EF /* RLMNetworkClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFA88A9D40582F961BF57AC7B0A26037 /* RLMNetworkClient.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		D044BC71647BB2A40B850A69F5EC7C08 /* RLMListBase.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = DE0CE345E1A2E4DD2ACBEBD3A8D0A058 /* RLMListBase.h */; };
 		D0BE327F3CF5C0AF2E47D9C1013E6092 /* sync_metadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75477D09C39380E5A234EAAF0E673DF9 /* sync_metadata.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -282,6 +288,7 @@
 		D7304149974121A2307D83C9A15196B6 /* IGListSingleSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BEBDCF2849D34DD9354FA48F711BE5 /* IGListSingleSectionController.m */; };
 		D9EFB012369DFD9738A460D783232F1C /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1CABB8703D19002467A3322B0CFBBE /* Results.swift */; };
 		DBFD6190235410CEEC639E3DAF18CA84 /* IGListBindingSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = C245542E2B6CDF9BBB50788D87987819 /* IGListBindingSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC2039076393E23F365925355C8A0F1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1845FCE3C77ABE6C8BAA48DE597A9A2 /* Foundation.framework */; };
 		DF68A29970757E536C0FC993AE08DA34 /* IGListMoveIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 460D5E3DFA3B7A8EB53FF78D053DD53D /* IGListMoveIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFA6445A26798E092E7677A1997D3B00 /* object_schema.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 893C92F818768906EA1ED874C2E23525 /* object_schema.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		E02DB9C6BE6D649E147B03644403A4F4 /* IGListIndexSetResultInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F26014265DC42F4D5C7A841C126B92 /* IGListIndexSetResultInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -291,6 +298,7 @@
 		E5EF9BEAA1A7AC0469534CF2C04A2F25 /* keychain_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B8559E0F94DA4E3C1F01921588643 /* keychain_helper.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		E62C831E8284EDACA879B6D194E6C4EC /* object_store.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09CF00A126BE41AF83F24CCC1A203EA0 /* object_store.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		E660CB640B631C682CA6BDEC2BE49A37 /* RLMRealmUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = D4573A46976C5DCA0C2448B423DA2135 /* RLMRealmUtil.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		E8A25FA51B1943EBA1FE29B4786BAB31 /* Pods-GroceryAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C64083C744CBEF286805BEBE225FD8A /* Pods-GroceryAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8C42477ECDA74011AF18824DCC07B73 /* RLMListBase.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = DE0CE345E1A2E4DD2ACBEBD3A8D0A058 /* RLMListBase.h */; };
 		E92E2570624BD532931EE3F2712CDA55 /* IGListBatchContext.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A010821EDD4DDD6441DFF76978F86B /* IGListBatchContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9B60F92CAC4F6E7E3E4E7AD84AFA0B5 /* UICollectionView+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 993009DDB65C41D679F6CE78704CE15B /* UICollectionView+DebugDescription.m */; };
@@ -318,15 +326,30 @@
 		FD43562B809215226CF94CBE19700D88 /* IGListBindable.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D6C355592EB51B42FC7A2E3FD0FACB /* IGListBindable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE1490305AA7A16869F246A9129496F0 /* RLMOptionalBase.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 0B0E045DEE4BADE8F79B5E05244FCF6D /* RLMOptionalBase.h */; };
 		FF098720230D9BDB64C720C00259BA6C /* sync_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28B5AA5CDC251BE6EDDEFDCCE52CADEC /* sync_file.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.12.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		FF91469BA46CA1BAB7F91EDBA8018444 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1845FCE3C77ABE6C8BAA48DE597A9A2 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5774A8EF17F2090A5E1DF93FFCFE781A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FBC5A5FFFF000A98458DA0DAD8AB232;
+			remoteInfo = IGListKit;
+		};
 		60CB79CBF0CA5BC39BF85BA57C60597C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 80AAF00D6B21D0BAE6B264618FB67E62;
 			remoteInfo = Realm;
+		};
+		620ABB169AECC076D1F00F829FF7FFCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D3EC10936CFC5B9F2C8593B7517C6FC;
+			remoteInfo = RealmSwift;
 		};
 		80CD651EB9BA6BAABAD5277CF8242989 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -341,6 +364,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1FBC5A5FFFF000A98458DA0DAD8AB232;
 			remoteInfo = IGListKit;
+		};
+		8527DB2CCA13EDB67223653AC342A50F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC6F7D768227F16F07DAE2675AFA3010;
+			remoteInfo = "Pods-GroceryApp";
 		};
 		952518154E8398D32A0BD49BF340AD26 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -363,12 +393,33 @@
 			remoteGlobalIDString = 5D3EC10936CFC5B9F2C8593B7517C6FC;
 			remoteInfo = RealmSwift;
 		};
+		BE0BBA06ED4C16B687F998EBAA08C394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC6F7D768227F16F07DAE2675AFA3010;
+			remoteInfo = "Pods-GroceryApp";
+		};
 		DC789F1137B07C27F05217A7EB6F3DF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5D3EC10936CFC5B9F2C8593B7517C6FC;
 			remoteInfo = RealmSwift;
+		};
+		E17E6C714C8A66563BF6649FD33D787C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80AAF00D6B21D0BAE6B264618FB67E62;
+			remoteInfo = Realm;
+		};
+		F48E8B1C6B04D5F7557908A3DD7A57A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82C4F0E36E837FF47820F78A0453ACD4;
+			remoteInfo = "Pods-GroceryAppCore";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -442,9 +493,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0045B6E88CD349D6D0E60D90CBAAD8B4 /* Pods-GroceryAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GroceryAppUITests.modulemap"; sourceTree = "<group>"; };
 		00CE7891B73D0BC1B5259F600B0B83EF /* RLMSyncPermission.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncPermission.mm; path = Realm/RLMSyncPermission.mm; sourceTree = "<group>"; };
 		01179B2561E189F9D6340A1B24B55632 /* UIScrollView+IGListKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+IGListKit.m"; path = "Source/Internal/UIScrollView+IGListKit.m"; sourceTree = "<group>"; };
 		0119BD39AA784957A843B92884B54FD0 /* IGListIndexSetResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexSetResult.h; path = Source/Common/IGListIndexSetResult.h; sourceTree = "<group>"; };
+		03C9BC4F6E60FB056A917EF8BC1D85C0 /* Pods-GroceryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryApp.debug.xcconfig"; sourceTree = "<group>"; };
 		03D6C355592EB51B42FC7A2E3FD0FACB /* IGListBindable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBindable.h; path = Source/IGListBindable.h; sourceTree = "<group>"; };
 		04A444D0494CFA502C9D3604141A1EE2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		0629F63859D0D7918C18792CDDA46080 /* IGListScrollDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListScrollDelegate.h; path = Source/IGListScrollDelegate.h; sourceTree = "<group>"; };
@@ -455,12 +508,11 @@
 		09ACDD12E97D470F08D4828A30DFD1C5 /* IGListSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSectionController.h; path = Source/IGListSectionController.h; sourceTree = "<group>"; };
 		09CF00A126BE41AF83F24CCC1A203EA0 /* object_store.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object_store.cpp; path = Realm/ObjectStore/src/object_store.cpp; sourceTree = "<group>"; };
 		0A1C87B9FCF89EF4A628745BA6AE9B80 /* collection_notifications.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_notifications.cpp; path = Realm/ObjectStore/src/collection_notifications.cpp; sourceTree = "<group>"; };
+		0B05F19887044EB7FF8B58FB0ADE542D /* Pods-GroceryAppCoreTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GroceryAppCoreTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0B0E045DEE4BADE8F79B5E05244FCF6D /* RLMOptionalBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMOptionalBase.h; path = include/RLMOptionalBase.h; sourceTree = "<group>"; };
-		0C499403AC66B8FFCBF1C6EFBDA84E03 /* Pods-GroceryApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GroceryApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		0BBD38B63DF4DD5F36F15FDB9A0E9DF7 /* Pods-GroceryAppCoreTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GroceryAppCoreTests-umbrella.h"; sourceTree = "<group>"; };
 		0ED0AFE91F282BDF27262074F055785A /* IGListMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMacros.h; path = Source/Common/IGListMacros.h; sourceTree = "<group>"; };
 		0F33AE3EB4754E351FADC4165E3541C6 /* IGListAdapterUpdaterInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdaterInternal.h; path = Source/Internal/IGListAdapterUpdaterInternal.h; sourceTree = "<group>"; };
-		108D747EDF22FA3026C614F5F6C01CDB /* Pods-GroceryAppCore-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroceryAppCore-resources.sh"; sourceTree = "<group>"; };
-		10B1864E0EBE23AC38E97703E8CDCEC4 /* Pods-GroceryApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GroceryApp-dummy.m"; sourceTree = "<group>"; };
 		110E5C666BA9F08ADEF30A33C26F76C2 /* IGListAdapterProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterProxy.h; path = Source/Internal/IGListAdapterProxy.h; sourceTree = "<group>"; };
 		11D20FA9D236C68093782F575826A159 /* RLMSyncUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUtil.h; path = include/RLMSyncUtil.h; sourceTree = "<group>"; };
 		11F26014265DC42F4D5C7A841C126B92 /* IGListIndexSetResultInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexSetResultInternal.h; path = Source/Common/Internal/IGListIndexSetResultInternal.h; sourceTree = "<group>"; };
@@ -473,18 +525,17 @@
 		19B67E36584784EFDA99DAFF291C6052 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = RealmSwift/Error.swift; sourceTree = "<group>"; };
 		1CA0B0F8AD7BFC5E6F86B4F37D0012F5 /* RLMSyncPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncPermission.h; path = include/RLMSyncPermission.h; sourceTree = "<group>"; };
 		1D5EF94C4D9DC8912ADE26B43E5F01D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E00831C2AD36C0F77238B739466913E /* Pods-GroceryAppCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryAppCore.debug.xcconfig"; sourceTree = "<group>"; };
 		1E6298B1241AEC6DBBC00BDB32241B8D /* RLMProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMProperty.h; path = include/RLMProperty.h; sourceTree = "<group>"; };
 		1E6D12CF2900EE658330C25CCAB777A4 /* RLMSchema.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSchema.mm; path = Realm/RLMSchema.mm; sourceTree = "<group>"; };
 		1E7C6A835704A66DAB702F1BA6DD8012 /* RLMObject.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObject.mm; path = Realm/RLMObject.mm; sourceTree = "<group>"; };
 		20E4B5D49C4DEF56FA8C2F418ED2F8EB /* ObjectSchema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSchema.swift; path = RealmSwift/ObjectSchema.swift; sourceTree = "<group>"; };
 		2130AA8778157F3D09432C4AC0810B84 /* RLMPredicateUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMPredicateUtil.mm; path = Realm/RLMPredicateUtil.mm; sourceTree = "<group>"; };
+		222919DDED6191AD0FD422B32A26373B /* IGListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IGListKit.framework; path = IGListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2297B8286A3F354A37D2A3759C3C3AAE /* RLMSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSchema.h; path = include/RLMSchema.h; sourceTree = "<group>"; };
 		2338D503348F258D1F80A0776CEEA3C0 /* RLMManagedArray.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMManagedArray.mm; path = Realm/RLMManagedArray.mm; sourceTree = "<group>"; };
 		233F2AB397BFEE64FC46233EECC91225 /* RLMQueryUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMQueryUtil.mm; path = Realm/RLMQueryUtil.mm; sourceTree = "<group>"; };
 		245229F58720FC0B98EEC069AFA8268F /* RLMCollection_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMCollection_Private.h; path = include/RLMCollection_Private.h; sourceTree = "<group>"; };
 		246EB3837726573E0FFCC0A9481009D3 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24B4F0260ADE7FCCC9DD3D825D5B8355 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26E3080D5ADE68740180AEC02C1654DF /* RLMSyncConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncConfiguration.h; path = include/RLMSyncConfiguration.h; sourceTree = "<group>"; };
 		2899D6AC3975208130FB73046F4838CE /* RLMResults_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMResults_Private.h; path = include/RLMResults_Private.h; sourceTree = "<group>"; };
 		289A952B387CC45DD2429154868E7B51 /* IGListBindingSectionController+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListBindingSectionController+DebugDescription.h"; path = "Source/Internal/IGListBindingSectionController+DebugDescription.h"; sourceTree = "<group>"; };
@@ -493,6 +544,7 @@
 		2A41A7A5B3A1BE8ED372F92B5E7223F1 /* IGListCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListCollectionView.m; path = Source/IGListCollectionView.m; sourceTree = "<group>"; };
 		2A6E03E54B3CD2B94F3B03BD83B0ABBC /* RLMObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObject.h; path = include/RLMObject.h; sourceTree = "<group>"; };
 		2AC83A661EB9D25E7EAD21CCD6AA281F /* sync_permission.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_permission.cpp; path = Realm/ObjectStore/src/sync/sync_permission.cpp; sourceTree = "<group>"; };
+		2C64083C744CBEF286805BEBE225FD8A /* Pods-GroceryAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GroceryAppTests-umbrella.h"; sourceTree = "<group>"; };
 		2CD7517F7088E66C02E33FB223C012E1 /* Realm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Realm-prefix.pch"; sourceTree = "<group>"; };
 		31B10AC28EFA99CD916731EF741B0235 /* RLMMigration.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMMigration.mm; path = Realm/RLMMigration.mm; sourceTree = "<group>"; };
 		343ED844D4349F6286895A3078BC9FA6 /* IGListDisplayHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDisplayHandler.h; path = Source/Internal/IGListDisplayHandler.h; sourceTree = "<group>"; };
@@ -505,7 +557,6 @@
 		36CAD20F7140F704D560F2CA19C80F1D /* IGListBindingSectionControllerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBindingSectionControllerDataSource.h; path = Source/IGListBindingSectionControllerDataSource.h; sourceTree = "<group>"; };
 		374B0ACBD624038D03E0C18927F7BCD5 /* RLMSyncSubscription.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncSubscription.mm; path = Realm/RLMSyncSubscription.mm; sourceTree = "<group>"; };
 		37FE5FC91126CD010706E654FF33D470 /* IGListMoveIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListMoveIndexPath.m; path = Source/Common/IGListMoveIndexPath.m; sourceTree = "<group>"; };
-		3AB806A6EB309C32E2F1170C65DAA600 /* Pods-GroceryApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroceryApp-frameworks.sh"; sourceTree = "<group>"; };
 		3C7FBE3EF861151AB8EDEE62819749A6 /* Object.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Object.swift; path = RealmSwift/Object.swift; sourceTree = "<group>"; };
 		3CA793BA6838168C8C42767A865204B7 /* ThreadSafeReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadSafeReference.swift; path = RealmSwift/ThreadSafeReference.swift; sourceTree = "<group>"; };
 		3CAC987934D06274994A7DFF97D75854 /* realm_coordinator.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = realm_coordinator.cpp; path = Realm/ObjectStore/src/impl/realm_coordinator.cpp; sourceTree = "<group>"; };
@@ -513,13 +564,12 @@
 		3E6A8AB620163D5942CD55CB352B0219 /* LinkingObjects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkingObjects.swift; path = RealmSwift/LinkingObjects.swift; sourceTree = "<group>"; };
 		3ED929840346690A2EA31E783329FA80 /* RLMSyncCredentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncCredentials.h; path = include/RLMSyncCredentials.h; sourceTree = "<group>"; };
 		3F57111E340A33FB103B9730DF9C344D /* RLMRealm+Sync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RLMRealm+Sync.h"; path = "include/RLMRealm+Sync.h"; sourceTree = "<group>"; };
-		3F7ADF5201DB358DC304AA5EA9BC4047 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealmSwift.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		402286783200CD5A5EE16052E86481EA /* Pods-GroceryAppCore-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GroceryAppCore-acknowledgements.markdown"; sourceTree = "<group>"; };
 		407222D95BAB24F3B0A1E567912A3AF5 /* placeholder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = placeholder.cpp; path = Realm/ObjectStore/src/placeholder.cpp; sourceTree = "<group>"; };
 		40CBCB65AC2234DDF78995DEE56E5213 /* RLMRealmConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealmConfiguration.h; path = include/RLMRealmConfiguration.h; sourceTree = "<group>"; };
 		4143E30676DE80F6DEA376067DAA4C23 /* thread_safe_reference.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = thread_safe_reference.cpp; path = Realm/ObjectStore/src/thread_safe_reference.cpp; sourceTree = "<group>"; };
 		429303D06DCA8819F80C3E93337D52BA /* IGListBatchUpdateState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBatchUpdateState.h; path = Source/Internal/IGListBatchUpdateState.h; sourceTree = "<group>"; };
 		42D13FD830A6A7CA2B0641AFAA943083 /* IGListExperiments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListExperiments.h; path = Source/Common/IGListExperiments.h; sourceTree = "<group>"; };
+		43586102B41F6D917B3803AE4BF36253 /* Pods-GroceryApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroceryApp-frameworks.sh"; sourceTree = "<group>"; };
 		443594C66AAB5F6414333E6260F8EDDF /* RLMSyncConfiguration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncConfiguration_Private.h; path = include/RLMSyncConfiguration_Private.h; sourceTree = "<group>"; };
 		44BCC057749D714FF5CDE94BAD6814BC /* list_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list_notifier.cpp; path = Realm/ObjectStore/src/impl/list_notifier.cpp; sourceTree = "<group>"; };
 		4504E147FBBE43D4AAE29D544D8425EF /* RLMObjectStore.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectStore.mm; path = Realm/RLMObjectStore.mm; sourceTree = "<group>"; };
@@ -528,12 +578,15 @@
 		45CEAE2A1B310113D6E310411FEA3470 /* NSError+RLMSync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+RLMSync.m"; path = "Realm/NSError+RLMSync.m"; sourceTree = "<group>"; };
 		460D5E3DFA3B7A8EB53FF78D053DD53D /* IGListMoveIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndex.h; path = Source/Common/IGListMoveIndex.h; sourceTree = "<group>"; };
 		461A9FFAADC6FD5B45D2F6E1C853F057 /* RLMResults.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMResults.mm; path = Realm/RLMResults.mm; sourceTree = "<group>"; };
+		4916B5233AA19C1494EBEF5C922FA912 /* Pods-GroceryAppCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryAppCore.release.xcconfig"; sourceTree = "<group>"; };
 		494F6D5442038B26D4F4BF131682AA9E /* external_commit_helper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = external_commit_helper.cpp; path = Realm/ObjectStore/src/impl/apple/external_commit_helper.cpp; sourceTree = "<group>"; };
 		49F2480A31A2CC4AFFF2A5352EE645DC /* NSNumber+IGListDiffable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+IGListDiffable.m"; path = "Source/Common/NSNumber+IGListDiffable.m"; sourceTree = "<group>"; };
 		4ABCACBB43B6B95DA33FEDD7B959C14C /* IGListSectionMap+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListSectionMap+DebugDescription.h"; path = "Source/Internal/IGListSectionMap+DebugDescription.h"; sourceTree = "<group>"; };
 		4BA7CCEBAF37BE156779F37F6CFC2098 /* IGListAdapterUpdater+DebugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IGListAdapterUpdater+DebugDescription.m"; path = "Source/Internal/IGListAdapterUpdater+DebugDescription.m"; sourceTree = "<group>"; };
 		4BE55A501820B8B96919F398D791B50E /* RLMSwiftSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSwiftSupport.m; path = Realm/RLMSwiftSupport.m; sourceTree = "<group>"; };
+		4C1C24E49B4D15B48CB5818DA65C4460 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Realm.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C45396956F32A2DC94F30E17E8D304C /* IGListStackedSectionControllerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListStackedSectionControllerInternal.h; path = Source/Internal/IGListStackedSectionControllerInternal.h; sourceTree = "<group>"; };
+		4D0A403C08D0053233C439F908387309 /* Pods-GroceryAppCore-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GroceryAppCore-acknowledgements.plist"; sourceTree = "<group>"; };
 		4D25A9192E3A36BE6D9DA249005650BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4D308BDC06AEEA293910D50DD519C12E /* schema.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = schema.cpp; path = Realm/ObjectStore/src/schema.cpp; sourceTree = "<group>"; };
 		4D6563D6EBD02980D8B6DF2138555179 /* IGListBindingSectionControllerSelectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBindingSectionControllerSelectionDelegate.h; path = Source/IGListBindingSectionControllerSelectionDelegate.h; sourceTree = "<group>"; };
@@ -542,15 +595,15 @@
 		4FCCE2CFA673ECD45E9C89F60E80173C /* RLMRealmConfiguration+Sync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RLMRealmConfiguration+Sync.h"; path = "include/RLMRealmConfiguration+Sync.h"; sourceTree = "<group>"; };
 		4FD7ADA24C643BDB8F1DCACEFF60D6ED /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = RealmSwift/Property.swift; sourceTree = "<group>"; };
 		501C54B26EE5DC1AAEE8215B280CFA0A /* RealmSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RealmSwift-dummy.m"; sourceTree = "<group>"; };
-		50CA9E5F5E16BC8FE5D7931EA3E1F1A4 /* Pods-GroceryAppCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GroceryAppCore-umbrella.h"; sourceTree = "<group>"; };
 		5270146829218AFDE2372E904AF0EB67 /* IGListArrayUtilsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListArrayUtilsInternal.h; path = Source/Common/Internal/IGListArrayUtilsInternal.h; sourceTree = "<group>"; };
+		52DE1B201E3EFCE36144BE8F7DC52C6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5314730368C785316994C5265C9891D2 /* IGListTransitionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListTransitionDelegate.h; path = Source/IGListTransitionDelegate.h; sourceTree = "<group>"; };
+		531C58EE80C9FDB4AD52776C30A699B8 /* Pods-GroceryAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroceryAppUITests-frameworks.sh"; sourceTree = "<group>"; };
 		54582E356FB8F210C5153CF407E03208 /* IGListAdapter+UICollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IGListAdapter+UICollectionView.m"; path = "Source/Internal/IGListAdapter+UICollectionView.m"; sourceTree = "<group>"; };
-		5559B0A68C907558C213607C3FB5AC25 /* Pods-GroceryApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GroceryApp-umbrella.h"; sourceTree = "<group>"; };
 		55667F598FEDDCD310FD576343BF5D6D /* IGListMoveIndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndexPath.h; path = Source/Common/IGListMoveIndexPath.h; sourceTree = "<group>"; };
-		567A963A47989CF1044F284BC522E520 /* Pods_GroceryAppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GroceryAppCore.framework; path = "Pods-GroceryAppCore.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		569114AB06B87FC0FBDCA5C420D6B1A9 /* RLMOptionalBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMOptionalBase.mm; path = Realm/RLMOptionalBase.mm; sourceTree = "<group>"; };
 		56C60ADC4119DC13A05331E58D98C4C6 /* weak_realm_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = weak_realm_notifier.cpp; path = Realm/ObjectStore/src/impl/weak_realm_notifier.cpp; sourceTree = "<group>"; };
+		575AF2A43F66BE08A0EBADACEF8A9505 /* Pods-GroceryApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroceryApp-resources.sh"; sourceTree = "<group>"; };
 		57F681A8E7CA9FE385FDEF9E6BE5083E /* librealmcore-ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "librealmcore-ios.a"; path = "core/librealmcore-ios.a"; sourceTree = "<group>"; };
 		5828168F454F3442F836B4330AB130A2 /* RLMObject_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObject_Private.h; path = include/RLMObject_Private.h; sourceTree = "<group>"; };
 		5854AABB69D0ED9E6EE0B71FFE98A617 /* RLMListBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMListBase.mm; path = Realm/RLMListBase.mm; sourceTree = "<group>"; };
@@ -561,53 +614,65 @@
 		5A6FC8E040F924C4861379E87BF8C581 /* UICollectionViewLayout+InteractiveReordering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewLayout+InteractiveReordering.h"; path = "Source/Internal/UICollectionViewLayout+InteractiveReordering.h"; sourceTree = "<group>"; };
 		5AF69C2C855EDEA3346CE4D94374D8A0 /* IGListMoveIndexInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndexInternal.h; path = Source/Common/Internal/IGListMoveIndexInternal.h; sourceTree = "<group>"; };
 		5C3F98DBAD5903F7561D915DB93B71B8 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = RealmSwift/Schema.swift; sourceTree = "<group>"; };
-		5C42BEAABA96536E977B1F350361AAE4 /* Pods-GroceryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5C896FAE90CF0E888F449C8AE7D75708 /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = RealmSwift/Util.swift; sourceTree = "<group>"; };
 		5CB79D139159D4AD30CF6A14A15B9558 /* RLMSyncSessionRefreshHandle.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncSessionRefreshHandle.mm; path = Realm/RLMSyncSessionRefreshHandle.mm; sourceTree = "<group>"; };
 		5E172039FE8C2312587B77F540C3A375 /* IGListSupplementaryViewSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSupplementaryViewSource.h; path = Source/IGListSupplementaryViewSource.h; sourceTree = "<group>"; };
 		5E7DDEDD64E51BF97DE2D612A709D7F1 /* RLMObjectBase_Dynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectBase_Dynamic.h; path = include/RLMObjectBase_Dynamic.h; sourceTree = "<group>"; };
 		5F2A0213F81A1DF4C52135A550CD40F7 /* IGListIndexPathResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexPathResult.h; path = Source/Common/IGListIndexPathResult.h; sourceTree = "<group>"; };
 		618F508749EC52D2B28341FA8763C2BB /* IGListIndexSetResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListIndexSetResult.m; path = Source/Common/IGListIndexSetResult.m; sourceTree = "<group>"; };
+		6233E0F687433BEE26A814AF675BA5DB /* Pods-GroceryAppCore-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroceryAppCore-resources.sh"; sourceTree = "<group>"; };
 		6253EAC752AFC350130E061F04F61B0C /* RealmConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealmConfiguration.swift; path = RealmSwift/RealmConfiguration.swift; sourceTree = "<group>"; };
-		62F60A71E0E846C357E14E5EF30712EC /* Pods-GroceryApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GroceryApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6273737452AA8BAE922CE0BE3CCDEDDD /* Pods-GroceryAppCoreTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroceryAppCoreTests-resources.sh"; sourceTree = "<group>"; };
 		6332751ACD7312765F73BBCF6928989F /* IGListSectionMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListSectionMap.m; path = Source/Internal/IGListSectionMap.m; sourceTree = "<group>"; };
 		634F7084876106420686C9607F0D85C9 /* Realm.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Realm.modulemap; sourceTree = "<group>"; };
+		6375B917FB5662F40F91610EE701AA85 /* Pods_GroceryAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GroceryAppUITests.framework; path = "Pods-GroceryAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E8F799867E2FB9C2322763315EC144 /* IGListGenericSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListGenericSectionController.m; path = Source/IGListGenericSectionController.m; sourceTree = "<group>"; };
+		63F45C2FD5303FFB353619A45AEAD2E6 /* Pods-GroceryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		648C20377A987B2EC4C2385E3750B306 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64C6C5E6D32C95DDE59ABBDA31F419A2 /* UICollectionView+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+DebugDescription.h"; path = "Source/Internal/UICollectionView+DebugDescription.h"; sourceTree = "<group>"; };
+		65463AD0202094F308B09CCC19B08A3A /* Pods-GroceryAppCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryAppCore.debug.xcconfig"; sourceTree = "<group>"; };
 		6592651642813B22719D8B78F8547969 /* RLMRealm_Dynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm_Dynamic.h; path = include/RLMRealm_Dynamic.h; sourceTree = "<group>"; };
 		66A59D3C82319FF1D82C63116ECC6D7F /* IGListDiffKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDiffKit.h; path = Source/Common/IGListDiffKit.h; sourceTree = "<group>"; };
 		67C6D459A37C0E043E4AFF2053D9BD9D /* IGListAdapter+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListAdapter+DebugDescription.h"; path = "Source/Internal/IGListAdapter+DebugDescription.h"; sourceTree = "<group>"; };
 		6916E8C86EC496988BBC413A20D38BC8 /* IGListDebuggingUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListDebuggingUtilities.m; path = Source/Internal/IGListDebuggingUtilities.m; sourceTree = "<group>"; };
 		69A24AADDF1C7BED236151D37D922BF4 /* IGListAdapterUpdater+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListAdapterUpdater+DebugDescription.h"; path = "Source/Internal/IGListAdapterUpdater+DebugDescription.h"; sourceTree = "<group>"; };
+		69BDF5F8FEA9F8971BBEDB4E21836CDE /* Pods-GroceryAppCoreTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GroceryAppCoreTests.modulemap"; sourceTree = "<group>"; };
 		6A78FFE9C75D351701C16AD20079BF65 /* RLMSyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncManager.h; path = include/RLMSyncManager.h; sourceTree = "<group>"; };
 		6AA394E8D976F3481F800EDABFCF7BA4 /* results.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = results.cpp; path = Realm/ObjectStore/src/results.cpp; sourceTree = "<group>"; };
 		6ADD4265D4A660520B26E51E5C0B2483 /* RLMMigration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMMigration.h; path = include/RLMMigration.h; sourceTree = "<group>"; };
 		6AE511348941D801CE5A38B37E0E76DB /* RLMSyncManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncManager.mm; path = Realm/RLMSyncManager.mm; sourceTree = "<group>"; };
-		6B420C20D66924E242A39260961CCC08 /* IGListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IGListKit.framework; path = IGListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B50F5EA2F38BA2D218332C714F17DC2 /* Pods-GroceryAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GroceryAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6B7318118DEC23243A4922FD5E55527E /* RLMRealmConfiguration.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMRealmConfiguration.mm; path = Realm/RLMRealmConfiguration.mm; sourceTree = "<group>"; };
 		6C70690F524BDEC59C34A288CE98D80F /* RLMSyncSubscription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncSubscription.h; path = include/RLMSyncSubscription.h; sourceTree = "<group>"; };
 		6CE2BB71E7B497DDE91856A82F7F0DA3 /* SortDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SortDescriptor.swift; path = RealmSwift/SortDescriptor.swift; sourceTree = "<group>"; };
+		6E0C910FD688614C47AA42DC4446A513 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EC31B2C44F57094D4C9A051784B431C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F44D841C0C1676D0906755EC7FB23DF /* IGListSectionMap+DebugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IGListSectionMap+DebugDescription.m"; path = "Source/Internal/IGListSectionMap+DebugDescription.m"; sourceTree = "<group>"; };
+		6F6D487DE7CE7F5A7804C0AB8F6B9D0A /* Pods-GroceryAppCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GroceryAppCore.modulemap"; sourceTree = "<group>"; };
 		70BCE4004D14BF7276EE4568BB71EF2F /* IGListReloadIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListReloadIndexPath.m; path = Source/Internal/IGListReloadIndexPath.m; sourceTree = "<group>"; };
-		724C96805BD6EC6BF4B140F6A37C890A /* Pods-GroceryAppCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GroceryAppCore-dummy.m"; sourceTree = "<group>"; };
+		724693B6BE432625CC831FA2C57B7981 /* Pods-GroceryAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GroceryAppUITests-umbrella.h"; sourceTree = "<group>"; };
 		75477D09C39380E5A234EAAF0E673DF9 /* sync_metadata.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_metadata.cpp; path = Realm/ObjectStore/src/sync/impl/sync_metadata.cpp; sourceTree = "<group>"; };
 		756D7E22419346FAD209B180D131AB45 /* RLMSyncUtil_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUtil_Private.h; path = include/RLMSyncUtil_Private.h; sourceTree = "<group>"; };
+		75B49AAFCFCD392CE0DFED3AEF2DB22B /* Pods-GroceryAppCoreTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroceryAppCoreTests-frameworks.sh"; sourceTree = "<group>"; };
 		78A3220AC9801A4EFC764BF35F225D83 /* IGListKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGListKit-prefix.pch"; sourceTree = "<group>"; };
 		79C667B6838C79B0327A386DF57AE61C /* IGListCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionView.h; path = Source/IGListCollectionView.h; sourceTree = "<group>"; };
 		79CE717A47DF58C517500797051AD82C /* RLMRealm+Sync.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "RLMRealm+Sync.mm"; path = "Realm/RLMRealm+Sync.mm"; sourceTree = "<group>"; };
+		7A2D785EB6CFC3458F1E1CDDA0B3BEF2 /* Pods-GroceryAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GroceryAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7AD74C863B927DF8056773D194B67A96 /* IGListDebugger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListDebugger.m; path = Source/Internal/IGListDebugger.m; sourceTree = "<group>"; };
+		7B102C7C703088BE055D20BAB4FD1607 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B51E9D68FCA0E1C02B34CB9F693909C /* RLMSyncSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncSession.h; path = include/RLMSyncSession.h; sourceTree = "<group>"; };
 		7E3EC3D6A9D883402AD873EFFA41C0B6 /* IGListMoveIndexPathInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndexPathInternal.h; path = Source/Common/Internal/IGListMoveIndexPathInternal.h; sourceTree = "<group>"; };
+		7EC442E3A27C339300C8057284896B0F /* Pods-GroceryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryApp.release.xcconfig"; sourceTree = "<group>"; };
 		7F12525E699AE117949073BB407773EF /* IGListBatchUpdateData+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListBatchUpdateData+DebugDescription.h"; path = "Source/Internal/IGListBatchUpdateData+DebugDescription.h"; sourceTree = "<group>"; };
 		7F8C5832F1967D849CA6555A076FABD0 /* primitive_list_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = primitive_list_notifier.cpp; path = Realm/ObjectStore/src/impl/primitive_list_notifier.cpp; sourceTree = "<group>"; };
+		7F94A5306034640A620F41BF9436D47C /* Pods-GroceryAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7FFD96538BD84E5D59854F405C94CD33 /* IGListDisplayDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDisplayDelegate.h; path = Source/IGListDisplayDelegate.h; sourceTree = "<group>"; };
-		80440C1E6DE17C49FB482F6C2BEB905D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8079B6903463F884B0E7DE8DDE8BA03E /* RLMThreadSafeReference.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMThreadSafeReference.mm; path = Realm/RLMThreadSafeReference.mm; sourceTree = "<group>"; };
 		80DE1EEDD9724F8CD5E954BF7DF89633 /* list.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list.cpp; path = Realm/ObjectStore/src/list.cpp; sourceTree = "<group>"; };
 		816948744887FA08A02EF262A6B3F72D /* transact_log_handler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = transact_log_handler.cpp; path = Realm/ObjectStore/src/impl/transact_log_handler.cpp; sourceTree = "<group>"; };
 		823C2F9E46D0A1D8490EBCC9FBDA51DD /* object.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object.cpp; path = Realm/ObjectStore/src/object.cpp; sourceTree = "<group>"; };
 		82BBCE8306FA5456C0331039C3E099B3 /* IGListReloadDataUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListReloadDataUpdater.h; path = Source/IGListReloadDataUpdater.h; sourceTree = "<group>"; };
+		83A7392893D99AAF6F047D4B003F96B1 /* Pods-GroceryAppCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryAppCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		843C22533F8F2BC8E9FAB2E591DCCEBE /* RLMObjectSchema.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectSchema.mm; path = Realm/RLMObjectSchema.mm; sourceTree = "<group>"; };
 		84F37FDFDA0511D3B42106521875497F /* IGListKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGListKit.xcconfig; sourceTree = "<group>"; };
 		85589287F4842B9767E50B2F921AFBED /* IGListKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IGListKit-dummy.m"; sourceTree = "<group>"; };
@@ -620,22 +685,29 @@
 		899B28C90DCCAEC69AC59A932F67C3BB /* IGListSectionControllerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSectionControllerInternal.h; path = Source/Internal/IGListSectionControllerInternal.h; sourceTree = "<group>"; };
 		8A9B8559E0F94DA4E3C1F01921588643 /* keychain_helper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = keychain_helper.cpp; path = Realm/ObjectStore/src/impl/apple/keychain_helper.cpp; sourceTree = "<group>"; };
 		8B4E8524E1FEBC9DD215F1DF5B06786D /* UIScrollView+IGListKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+IGListKit.h"; path = "Source/Internal/UIScrollView+IGListKit.h"; sourceTree = "<group>"; };
+		8B7829D4D9DB9837CEBB9C11EB0642E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1D96B95B69526C506FE0F8BA3F99FA /* Aliases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Aliases.swift; path = RealmSwift/Aliases.swift; sourceTree = "<group>"; };
+		8DF5B67F3C9A21E6C831E18AB68E6BB7 /* Pods_GroceryAppCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GroceryAppCoreTests.framework; path = "Pods-GroceryAppCoreTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E041976C75A8A604D5F457B45EDBDD3 /* IGListSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListSectionController.m; path = Source/IGListSectionController.m; sourceTree = "<group>"; };
 		8E80F0F2BB242B9EDDB497FE12551121 /* RLMConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMConstants.m; path = Realm/RLMConstants.m; sourceTree = "<group>"; };
+		903AAAC47881A0B0BC3CBCC5D5AD0825 /* Pods-GroceryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		90D2754FEDE39976E66F3FDDC7E2FACB /* IGListAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterDelegate.h; path = Source/IGListAdapterDelegate.h; sourceTree = "<group>"; };
 		91342CCDB1BA03B36B6DAB9D1EB1E40C /* IGListCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCompatibility.h; path = Source/Common/IGListCompatibility.h; sourceTree = "<group>"; };
 		9292DC14DCAAC24BAA96C727434B1A76 /* RLMRealm_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm_Private.h; path = include/RLMRealm_Private.h; sourceTree = "<group>"; };
 		931AEA222F8160849CA9B986AFAACF9C /* IGListAdapter+UICollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListAdapter+UICollectionView.h"; path = "Source/Internal/IGListAdapter+UICollectionView.h"; sourceTree = "<group>"; };
+		93301D0E3C21AB13E56B9F91E333FBBF /* Pods-GroceryAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GroceryAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		934F4A21AF6098DEF78C563C614D5C4A /* IGListSectionMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSectionMap.h; path = Source/Internal/IGListSectionMap.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93D85CF98684EAC60CCD8A3F4FC28D52 /* RLMPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMPlatform.h; path = include/RLMPlatform.h; sourceTree = "<group>"; };
 		95C693C62D6897F552B09BE94B4E25AF /* IGListStackedSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListStackedSectionController.m; path = Source/IGListStackedSectionController.m; sourceTree = "<group>"; };
+		9681D67A987FCA19B24B7A665DF1A8C4 /* Pods-GroceryApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GroceryApp.modulemap"; sourceTree = "<group>"; };
 		96AF267FA5473F189C49DC687931B514 /* IGListCollectionViewLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListCollectionViewLayout.mm; path = Source/IGListCollectionViewLayout.mm; sourceTree = "<group>"; };
 		96FE9B5C5DEE3A9DA23886A7B7D29E78 /* RLMSyncConfiguration.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncConfiguration.mm; path = Realm/RLMSyncConfiguration.mm; sourceTree = "<group>"; };
 		98B8595A27C120EA2C1ED879B94CAA6E /* RLMCollection.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMCollection.mm; path = Realm/RLMCollection.mm; sourceTree = "<group>"; };
+		9902F469775D1A6FC32B49E485CF3778 /* Pods-GroceryAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GroceryAppTests-dummy.m"; sourceTree = "<group>"; };
 		993009DDB65C41D679F6CE78704CE15B /* UICollectionView+DebugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+DebugDescription.m"; path = "Source/Internal/UICollectionView+DebugDescription.m"; sourceTree = "<group>"; };
 		99CF61D441D36518BAA67CC89E479BB3 /* RealmSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RealmSwift.xcconfig; sourceTree = "<group>"; };
+		99EDAECF02AC33DA746EC42B2E2D7BB9 /* Pods-GroceryAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9A9360C31341FAB53771CF2CAACB0661 /* RLMObjectStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectStore.h; path = include/RLMObjectStore.h; sourceTree = "<group>"; };
 		9AE9531E52AC179EC607E6219E27BCA8 /* ObjectiveCSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectiveCSupport.swift; path = RealmSwift/ObjectiveCSupport.swift; sourceTree = "<group>"; };
 		9DE6C87192585835AFD1AE61C4D6B3BE /* RLMRealm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm.h; path = include/RLMRealm.h; sourceTree = "<group>"; };
@@ -644,22 +716,27 @@
 		9FDFDFE1164F3C28B24942CA8A3D23DE /* IGListBindingSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListBindingSectionController.m; path = Source/IGListBindingSectionController.m; sourceTree = "<group>"; };
 		9FF09C9158D9B75B7CFF22A455424B13 /* Realm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Realm-dummy.m"; sourceTree = "<group>"; };
 		A2379874C39CBC6C66A4B20BA0514719 /* IGListDiffable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDiffable.h; path = Source/Common/IGListDiffable.h; sourceTree = "<group>"; };
-		A2FD7BD8F166545EDFCAD1DAAAEA2455 /* Pods-GroceryAppCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryAppCore.release.xcconfig"; sourceTree = "<group>"; };
+		A2D8D9197CE99950D29FF536285E20C0 /* Pods-GroceryAppCoreTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GroceryAppCoreTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7CCC57AEA0CE26A22A3DF0E3A318B07 /* Pods-GroceryAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroceryAppTests-resources.sh"; sourceTree = "<group>"; };
+		AAB3BAFEB17A9208857E1CACED76C30E /* Pods-GroceryApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GroceryApp-umbrella.h"; sourceTree = "<group>"; };
+		AD6211B547FD09C1E856769AE3A9914A /* Pods_GroceryAppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GroceryAppCore.framework; path = "Pods-GroceryAppCore.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECB5EF07D8BCD6EBAE6B7969D60FC24 /* binding_callback_thread_observer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = binding_callback_thread_observer.cpp; path = Realm/ObjectStore/src/binding_callback_thread_observer.cpp; sourceTree = "<group>"; };
 		AF26E0CF0667B66A45F144C6C7F8999E /* Sync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sync.swift; path = RealmSwift/Sync.swift; sourceTree = "<group>"; };
 		B07B0FD8B7ED0B63B6C1A0FC56E47290 /* SwiftVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftVersion.swift; path = RealmSwift/SwiftVersion.swift; sourceTree = "<group>"; };
 		B087424214C77B92FC1697657A7B532F /* IGListIndexPathResultInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexPathResultInternal.h; path = Source/Common/Internal/IGListIndexPathResultInternal.h; sourceTree = "<group>"; };
 		B09495BB1C43B787AA2E538C75C46EB9 /* RLMObjectBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectBase.mm; path = Realm/RLMObjectBase.mm; sourceTree = "<group>"; };
-		B1605DB72896F8110FC248D9D33F762A /* Pods_GroceryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GroceryApp.framework; path = "Pods-GroceryApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15D74E54F8E0015789092B971762542 /* Pods-GroceryAppCore-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GroceryAppCore-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1EC2FC89FF54D84F15A257B6D75EC9A /* Pods-GroceryAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GroceryAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B463233003C358C80BA0ACCCEAEBBDF4 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealmSwift.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B505B30037E35506856F61D6A70A21DA /* RealmCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealmCollection.swift; path = RealmSwift/RealmCollection.swift; sourceTree = "<group>"; };
 		B58B39417997FF328481E92A2098018E /* List.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = List.swift; path = RealmSwift/List.swift; sourceTree = "<group>"; };
 		B5BEBDCF2849D34DD9354FA48F711BE5 /* IGListSingleSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListSingleSectionController.m; path = Source/IGListSingleSectionController.m; sourceTree = "<group>"; };
 		B63284D6255CC41A2150136818CE059B /* IGListMoveIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListMoveIndex.m; path = Source/Common/IGListMoveIndex.m; sourceTree = "<group>"; };
-		B678ECD89716464BB06FE3CB6DD2D6CC /* Pods-GroceryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryApp.release.xcconfig"; sourceTree = "<group>"; };
 		B78E463F20749D23AF52D6AD7C4E7229 /* IGListAdapterProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListAdapterProxy.m; path = Source/Internal/IGListAdapterProxy.m; sourceTree = "<group>"; };
 		B9017BF3BE73D1FA526C36775487D51D /* RLMAnalytics.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMAnalytics.mm; path = Realm/RLMAnalytics.mm; sourceTree = "<group>"; };
 		B9E922F72A51C7B857BFA057563A1A8F /* IGListCollectionViewLayoutInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionViewLayoutInternal.h; path = Source/Internal/IGListCollectionViewLayoutInternal.h; sourceTree = "<group>"; };
 		BA856DF75CDB5483EF5CD3DF60101CA0 /* IGListReloadIndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListReloadIndexPath.h; path = Source/Internal/IGListReloadIndexPath.h; sourceTree = "<group>"; };
+		BCF14C7D35870CC5C033CB53F26AB041 /* Pods-GroceryAppCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GroceryAppCore-dummy.m"; sourceTree = "<group>"; };
 		BDC1BE98D5194E817452E43ACAEC67F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE30631925527316939F7298B8ED1BA3 /* RLMProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMProperty.mm; path = Realm/RLMProperty.mm; sourceTree = "<group>"; };
 		C00C8EACCD6240EB0107B0F9AA81EBDE /* IGListBatchUpdateData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBatchUpdateData.h; path = Source/Common/IGListBatchUpdateData.h; sourceTree = "<group>"; };
@@ -668,22 +745,27 @@
 		C55493046597C839D81D88DA08935FFB /* results_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = results_notifier.cpp; path = Realm/ObjectStore/src/impl/results_notifier.cpp; sourceTree = "<group>"; };
 		C582E535964AD3C77DDD65A191669889 /* Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Migration.swift; path = RealmSwift/Migration.swift; sourceTree = "<group>"; };
 		C5A010821EDD4DDD6441DFF76978F86B /* IGListBatchContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBatchContext.h; path = Source/IGListBatchContext.h; sourceTree = "<group>"; };
+		C6328BF5FB9D17AAE4138CFB1A600DF3 /* Pods_GroceryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GroceryApp.framework; path = "Pods-GroceryApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80EDBF6E5C76841798DB7E55208A63F /* sync_manager.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_manager.cpp; path = Realm/ObjectStore/src/sync/sync_manager.cpp; sourceTree = "<group>"; };
 		C90CDF5B5F3A32B46B705FB6E958080D /* UICollectionViewLayout+InteractiveReordering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewLayout+InteractiveReordering.m"; path = "Source/Internal/UICollectionViewLayout+InteractiveReordering.m"; sourceTree = "<group>"; };
 		C95471493812C6584E7DC7DF43227BA1 /* RLMSchema_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSchema_Private.h; path = include/RLMSchema_Private.h; sourceTree = "<group>"; };
 		CB8A036270894E39F44DC89878F81915 /* IGListCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionViewLayout.h; path = Source/IGListCollectionViewLayout.h; sourceTree = "<group>"; };
 		CB974546BD8682D928B1BCBFC49579D4 /* RealmSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealmSwift-prefix.pch"; sourceTree = "<group>"; };
 		CCD3C2D81520CACDF77510B8C96EBA3F /* Realm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Realm.h; path = include/Realm.h; sourceTree = "<group>"; };
+		CD49F09A5DE66D37FA22ED0D82E94A09 /* Pods-GroceryAppCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryAppCoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		CD570A6D411BF7D4304E080EED807C79 /* IGListReloadDataUpdater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListReloadDataUpdater.m; path = Source/IGListReloadDataUpdater.m; sourceTree = "<group>"; };
 		CDA81976906602D6C36973576D05B1A6 /* RLMRealmConfiguration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealmConfiguration_Private.h; path = include/RLMRealmConfiguration_Private.h; sourceTree = "<group>"; };
-		CFB224A9D6D10256CFBD32750CF0F932 /* Pods-GroceryAppCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GroceryAppCore.modulemap"; sourceTree = "<group>"; };
+		CEC8BAADDA5D15A645AB6EAC271E8DB1 /* Pods-GroceryApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GroceryApp-dummy.m"; sourceTree = "<group>"; };
 		CFE1FA52641FAB841ED84A2EAE8F9C7B /* RLMSyncCredentials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncCredentials.m; path = Realm/RLMSyncCredentials.m; sourceTree = "<group>"; };
 		D058F9A1114D611B8889A066F4960F7B /* IGListIndexPathResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListIndexPathResult.m; path = Source/Common/IGListIndexPathResult.m; sourceTree = "<group>"; };
 		D1845FCE3C77ABE6C8BAA48DE597A9A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D1AE5545333C13012BC3BDE67109C99E /* RLMCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMCollection.h; path = include/RLMCollection.h; sourceTree = "<group>"; };
 		D3382E6310816CA52951E851B85C6566 /* RealmSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealmSwift-umbrella.h"; sourceTree = "<group>"; };
+		D3989B5E67245B60D7AE793F5B0F94F3 /* Pods-GroceryAppCoreTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GroceryAppCoreTests-dummy.m"; sourceTree = "<group>"; };
+		D3A507D5E68962E88C82E1D9C7B723F5 /* Pods-GroceryApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GroceryApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D4573A46976C5DCA0C2448B423DA2135 /* RLMRealmUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMRealmUtil.mm; path = Realm/RLMRealmUtil.mm; sourceTree = "<group>"; };
 		D5BA67520D2BC92A343823F93AF11250 /* RLMProperty_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMProperty_Private.h; path = include/RLMProperty_Private.h; sourceTree = "<group>"; };
+		D5EFAC71D0D24B6D44B44AA0DF608EB9 /* Pods-GroceryAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroceryAppTests-frameworks.sh"; sourceTree = "<group>"; };
 		D66C652D47B47976F2495F05EBC2B741 /* RLMConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMConstants.h; path = include/RLMConstants.h; sourceTree = "<group>"; };
 		D6BDEC85A6FB5D706BD629A1838836A9 /* IGListAdapterUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdater.h; path = Source/IGListAdapterUpdater.h; sourceTree = "<group>"; };
 		D757783A14AC63565FD995E51F5FFA3D /* IGListBatchUpdates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBatchUpdates.h; path = Source/Internal/IGListBatchUpdates.h; sourceTree = "<group>"; };
@@ -692,13 +774,16 @@
 		DAA6B2DFDD081F05A5E14FC33F4DC3C6 /* IGListSingleSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSingleSectionController.h; path = Source/IGListSingleSectionController.h; sourceTree = "<group>"; };
 		DAFE4746A48256324A18F77DAD692E02 /* network_reachability_observer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = network_reachability_observer.cpp; path = Realm/ObjectStore/src/sync/impl/apple/network_reachability_observer.cpp; sourceTree = "<group>"; };
 		DB761333BC125508495936C791F32F22 /* IGListWorkingRangeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListWorkingRangeDelegate.h; path = Source/IGListWorkingRangeDelegate.h; sourceTree = "<group>"; };
+		DB91333B1EF71AAAC7FEE6552C251920 /* Pods-GroceryAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GroceryAppUITests-dummy.m"; sourceTree = "<group>"; };
 		DBA8B2D7F8B1812B27CCFCA554C762FE /* NSNumber+IGListDiffable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+IGListDiffable.h"; path = "Source/Common/NSNumber+IGListDiffable.h"; sourceTree = "<group>"; };
+		DD68A6B188AC78BDC5A4A43F9760F2CF /* Pods-GroceryAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroceryAppUITests-resources.sh"; sourceTree = "<group>"; };
 		DE0CE345E1A2E4DD2ACBEBD3A8D0A058 /* RLMListBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMListBase.h; path = include/RLMListBase.h; sourceTree = "<group>"; };
 		DE3172804ED6FCC9F98B4224FA43C52B /* sync_config.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_config.cpp; path = Realm/ObjectStore/src/sync/sync_config.cpp; sourceTree = "<group>"; };
 		DE54BC7D7F8D8BCA04B70FF1126514FE /* RLMArray.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMArray.mm; path = Realm/RLMArray.mm; sourceTree = "<group>"; };
 		DEA2FDB9D20E6351AC5CD70EA4492E30 /* IGListStackedSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListStackedSectionController.h; path = Source/IGListStackedSectionController.h; sourceTree = "<group>"; };
 		DECF8EFE5E301601EFB9FD638FD48B2D /* collection_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_notifier.cpp; path = Realm/ObjectStore/src/impl/collection_notifier.cpp; sourceTree = "<group>"; };
 		E056811FDFD7AFA33F878ADF11DB9AE6 /* Realm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Realm.swift; path = RealmSwift/Realm.swift; sourceTree = "<group>"; };
+		E0AC232AC1F3AF1CE517FE5CE5EB05F7 /* Pods-GroceryAppCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GroceryAppCore-umbrella.h"; sourceTree = "<group>"; };
 		E1B6A7D472F60F86A89879F3A4ACA76D /* RLMObjectBase_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectBase_Private.h; path = include/RLMObjectBase_Private.h; sourceTree = "<group>"; };
 		E532F198242186BB9C08C8AF9CC7AD34 /* RLMSyncSession.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncSession.mm; path = Realm/RLMSyncSession.mm; sourceTree = "<group>"; };
 		E56775CF080676CF8AE5F7695814845F /* IGListBatchUpdateData+DebugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IGListBatchUpdateData+DebugDescription.m"; path = "Source/Internal/IGListBatchUpdateData+DebugDescription.m"; sourceTree = "<group>"; };
@@ -711,22 +796,21 @@
 		E8AF6E6CEBEBA00ECF56E67BC2445C70 /* IGListBatchUpdates.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListBatchUpdates.m; path = Source/Internal/IGListBatchUpdates.m; sourceTree = "<group>"; };
 		EA18FD410DDDD234220C89CCB616542E /* RLMRealm.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMRealm.mm; path = Realm/RLMRealm.mm; sourceTree = "<group>"; };
 		ED9A0DFDF84C1C32422FA2142422DE6F /* RLMAccessor.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMAccessor.mm; path = Realm/RLMAccessor.mm; sourceTree = "<group>"; };
-		EE12C92DEBB28B06109D4C4882AB6848 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Realm.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE36A829BA9D1055FB6FADDFB1CB4690 /* sync_user.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_user.cpp; path = Realm/ObjectStore/src/sync/sync_user.cpp; sourceTree = "<group>"; };
-		EE667EDA2C64D303CE49DFE5C8F566C6 /* Pods-GroceryApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GroceryApp.modulemap"; sourceTree = "<group>"; };
 		EF264938869E59149878D39B3D5675C6 /* IGListAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListAdapter.m; path = Source/IGListAdapter.m; sourceTree = "<group>"; };
+		EF352DEF8BA0E2004881459A32F3F063 /* Pods-GroceryAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GroceryAppTests.modulemap"; sourceTree = "<group>"; };
 		EF8FC5BBB2FBE2C77CF2BD73259C59A5 /* IGListAdapterUpdateListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdateListener.h; path = Source/IGListAdapterUpdateListener.h; sourceTree = "<group>"; };
 		EFA88A9D40582F961BF57AC7B0A26037 /* RLMNetworkClient.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMNetworkClient.mm; path = Realm/RLMNetworkClient.mm; sourceTree = "<group>"; };
 		F063A42D914133C45BFB68BF6CBADF16 /* IGListAdapterDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterDataSource.h; path = Source/IGListAdapterDataSource.h; sourceTree = "<group>"; };
 		F0A6E289F0A4A7D540AC841C835C3C86 /* IGListAdapterInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterInternal.h; path = Source/Internal/IGListAdapterInternal.h; sourceTree = "<group>"; };
 		F15E93930469AA2DF7BBA8EB75C2B365 /* IGListWorkingRangeHandler.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListWorkingRangeHandler.mm; path = Source/Internal/IGListWorkingRangeHandler.mm; sourceTree = "<group>"; };
-		F1BF9356C0C437CA4ED74631BFD2000D /* Pods-GroceryApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroceryApp-resources.sh"; sourceTree = "<group>"; };
+		F23C017FD00C730A9EC47D35AD2EFB2B /* Pods-GroceryApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GroceryApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		F29931AAEC1934C9FFB4089246FD6DD1 /* IGListAdapter+DebugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IGListAdapter+DebugDescription.m"; path = "Source/Internal/IGListAdapter+DebugDescription.m"; sourceTree = "<group>"; };
 		F29EBAD8AAC9FC649A2E99F596A47A51 /* IGListBatchUpdateData.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListBatchUpdateData.mm; path = Source/Common/IGListBatchUpdateData.mm; sourceTree = "<group>"; };
 		F3C31596D7F8DEA94A46D650DFFFED87 /* RLMClassInfo.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMClassInfo.mm; path = Realm/RLMClassInfo.mm; sourceTree = "<group>"; };
 		F574FAB3126F3D6453352FB8B607837B /* uuid.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = uuid.cpp; path = Realm/ObjectStore/src/util/uuid.cpp; sourceTree = "<group>"; };
 		F58BCEDA2B35C2C3F229059BDD4029C9 /* UICollectionView+IGListBatchUpdateData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+IGListBatchUpdateData.h"; path = "Source/Internal/UICollectionView+IGListBatchUpdateData.h"; sourceTree = "<group>"; };
-		F62839CCF73B7EE1694CB2B37D7A568F /* Pods-GroceryAppCore-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GroceryAppCore-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7B3B8D61411DC1756F4DFF3ACA29FFF /* Pods_GroceryAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GroceryAppTests.framework; path = "Pods-GroceryAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89D36278457A3B3250FD0846899DA49 /* IGListDiff.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListDiff.mm; path = Source/Common/IGListDiff.mm; sourceTree = "<group>"; };
 		F9D0D25D7720210523C7B907F485AA87 /* collection_change_builder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_change_builder.cpp; path = Realm/ObjectStore/src/impl/collection_change_builder.cpp; sourceTree = "<group>"; };
 		FABFCDB784051F344DF39F46F4304B2D /* IGListKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGListKit-umbrella.h"; sourceTree = "<group>"; };
@@ -740,12 +824,36 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		32E87CC451A7C492C4EDAE0B133A7357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD9C60D3E237A06AC0DE42D6093CBE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CDBD3F495918D5A6CCD801FB954F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2039076393E23F365925355C8A0F1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		619F0D4D3248B5618F2E8FF8F7CEBB1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0364ECEC12948EB0DFA32566BD8D3810 /* Foundation.framework in Frameworks */,
 				76F2310C0C35A77A8FE5E7CDFF758E8D /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71050A20C84906127D821FDC4038638D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF91469BA46CA1BAB7F91EDBA8018444 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -786,6 +894,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F9A75E605979B1B804654FA485EBF79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222919DDED6191AD0FD422B32A26373B /* IGListKit.framework */,
+				C6328BF5FB9D17AAE4138CFB1A600DF3 /* Pods_GroceryApp.framework */,
+				AD6211B547FD09C1E856769AE3A9914A /* Pods_GroceryAppCore.framework */,
+				8DF5B67F3C9A21E6C831E18AB68E6BB7 /* Pods_GroceryAppCoreTests.framework */,
+				F7B3B8D61411DC1756F4DFF3ACA29FFF /* Pods_GroceryAppTests.framework */,
+				6375B917FB5662F40F91610EE701AA85 /* Pods_GroceryAppUITests.framework */,
+				4C1C24E49B4D15B48CB5818DA65C4460 /* Realm.framework */,
+				B463233003C358C80BA0ACCCEAEBBDF4 /* RealmSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		261FEBFD7150ACD379C58758E6C6B360 /* Pods-GroceryAppCore */ = {
+			isa = PBXGroup;
+			children = (
+				52DE1B201E3EFCE36144BE8F7DC52C6C /* Info.plist */,
+				6F6D487DE7CE7F5A7804C0AB8F6B9D0A /* Pods-GroceryAppCore.modulemap */,
+				B15D74E54F8E0015789092B971762542 /* Pods-GroceryAppCore-acknowledgements.markdown */,
+				4D0A403C08D0053233C439F908387309 /* Pods-GroceryAppCore-acknowledgements.plist */,
+				BCF14C7D35870CC5C033CB53F26AB041 /* Pods-GroceryAppCore-dummy.m */,
+				6233E0F687433BEE26A814AF675BA5DB /* Pods-GroceryAppCore-resources.sh */,
+				E0AC232AC1F3AF1CE517FE5CE5EB05F7 /* Pods-GroceryAppCore-umbrella.h */,
+				65463AD0202094F308B09CCC19B08A3A /* Pods-GroceryAppCore.debug.xcconfig */,
+				4916B5233AA19C1494EBEF5C922FA912 /* Pods-GroceryAppCore.release.xcconfig */,
+			);
+			name = "Pods-GroceryAppCore";
+			path = "Target Support Files/Pods-GroceryAppCore";
+			sourceTree = "<group>";
+		};
 		3A39CF16A57C41B605B6B677C12D4330 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -794,41 +934,6 @@
 				7122FDDC323AE3B3A46C0AD1C9C30E87 /* RealmSwift */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		45F16A3F22CF69F9D0ED736B63023AA8 /* Pods-GroceryApp */ = {
-			isa = PBXGroup;
-			children = (
-				24B4F0260ADE7FCCC9DD3D825D5B8355 /* Info.plist */,
-				EE667EDA2C64D303CE49DFE5C8F566C6 /* Pods-GroceryApp.modulemap */,
-				62F60A71E0E846C357E14E5EF30712EC /* Pods-GroceryApp-acknowledgements.markdown */,
-				0C499403AC66B8FFCBF1C6EFBDA84E03 /* Pods-GroceryApp-acknowledgements.plist */,
-				10B1864E0EBE23AC38E97703E8CDCEC4 /* Pods-GroceryApp-dummy.m */,
-				3AB806A6EB309C32E2F1170C65DAA600 /* Pods-GroceryApp-frameworks.sh */,
-				F1BF9356C0C437CA4ED74631BFD2000D /* Pods-GroceryApp-resources.sh */,
-				5559B0A68C907558C213607C3FB5AC25 /* Pods-GroceryApp-umbrella.h */,
-				5C42BEAABA96536E977B1F350361AAE4 /* Pods-GroceryApp.debug.xcconfig */,
-				B678ECD89716464BB06FE3CB6DD2D6CC /* Pods-GroceryApp.release.xcconfig */,
-			);
-			name = "Pods-GroceryApp";
-			path = "Target Support Files/Pods-GroceryApp";
-			sourceTree = "<group>";
-		};
-		4AED61F21BF980DD3A8A3074380F74A6 /* Pods-GroceryAppCore */ = {
-			isa = PBXGroup;
-			children = (
-				80440C1E6DE17C49FB482F6C2BEB905D /* Info.plist */,
-				CFB224A9D6D10256CFBD32750CF0F932 /* Pods-GroceryAppCore.modulemap */,
-				402286783200CD5A5EE16052E86481EA /* Pods-GroceryAppCore-acknowledgements.markdown */,
-				F62839CCF73B7EE1694CB2B37D7A568F /* Pods-GroceryAppCore-acknowledgements.plist */,
-				724C96805BD6EC6BF4B140F6A37C890A /* Pods-GroceryAppCore-dummy.m */,
-				108D747EDF22FA3026C614F5F6C01CDB /* Pods-GroceryAppCore-resources.sh */,
-				50CA9E5F5E16BC8FE5D7931EA3E1F1A4 /* Pods-GroceryAppCore-umbrella.h */,
-				1E00831C2AD36C0F77238B739466913E /* Pods-GroceryAppCore.debug.xcconfig */,
-				A2FD7BD8F166545EDFCAD1DAAAEA2455 /* Pods-GroceryAppCore.release.xcconfig */,
-			);
-			name = "Pods-GroceryAppCore";
-			path = "Target Support Files/Pods-GroceryAppCore";
 			sourceTree = "<group>";
 		};
 		535F625CE625B02FDF56316F50A20419 /* Default */ = {
@@ -1062,6 +1167,24 @@
 			path = Realm;
 			sourceTree = "<group>";
 		};
+		65596AEA96322CF49B49D1BC8B2745BD /* Pods-GroceryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B7829D4D9DB9837CEBB9C11EB0642E4 /* Info.plist */,
+				0045B6E88CD349D6D0E60D90CBAAD8B4 /* Pods-GroceryAppUITests.modulemap */,
+				7A2D785EB6CFC3458F1E1CDDA0B3BEF2 /* Pods-GroceryAppUITests-acknowledgements.markdown */,
+				6B50F5EA2F38BA2D218332C714F17DC2 /* Pods-GroceryAppUITests-acknowledgements.plist */,
+				DB91333B1EF71AAAC7FEE6552C251920 /* Pods-GroceryAppUITests-dummy.m */,
+				531C58EE80C9FDB4AD52776C30A699B8 /* Pods-GroceryAppUITests-frameworks.sh */,
+				DD68A6B188AC78BDC5A4A43F9760F2CF /* Pods-GroceryAppUITests-resources.sh */,
+				724693B6BE432625CC831FA2C57B7981 /* Pods-GroceryAppUITests-umbrella.h */,
+				7F94A5306034640A620F41BF9436D47C /* Pods-GroceryAppUITests.debug.xcconfig */,
+				99EDAECF02AC33DA746EC42B2E2D7BB9 /* Pods-GroceryAppUITests.release.xcconfig */,
+			);
+			name = "Pods-GroceryAppUITests";
+			path = "Target Support Files/Pods-GroceryAppUITests";
+			sourceTree = "<group>";
+		};
 		6AFDD0DDA2288AD243EED2C10EEA751A /* Headers */ = {
 			isa = PBXGroup;
 			children = (
@@ -1106,15 +1229,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6D80E9F55425C7C7E4D32C427E4765B4 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				45F16A3F22CF69F9D0ED736B63023AA8 /* Pods-GroceryApp */,
-				4AED61F21BF980DD3A8A3074380F74A6 /* Pods-GroceryAppCore */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		6E6C7BCD939FB44C3BB8BF094010BEC5 /* Diffing */ = {
 			isa = PBXGroup;
 			children = (
@@ -1151,16 +1265,22 @@
 			path = RealmSwift;
 			sourceTree = "<group>";
 		};
-		733E346D54866C4F372B6C8131785D74 /* Products */ = {
+		777E6C076C44B3E71729F454DE5FAF2A /* Pods-GroceryAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				6B420C20D66924E242A39260961CCC08 /* IGListKit.framework */,
-				B1605DB72896F8110FC248D9D33F762A /* Pods_GroceryApp.framework */,
-				567A963A47989CF1044F284BC522E520 /* Pods_GroceryAppCore.framework */,
-				EE12C92DEBB28B06109D4C4882AB6848 /* Realm.framework */,
-				3F7ADF5201DB358DC304AA5EA9BC4047 /* RealmSwift.framework */,
+				7B102C7C703088BE055D20BAB4FD1607 /* Info.plist */,
+				EF352DEF8BA0E2004881459A32F3F063 /* Pods-GroceryAppTests.modulemap */,
+				93301D0E3C21AB13E56B9F91E333FBBF /* Pods-GroceryAppTests-acknowledgements.markdown */,
+				B1EC2FC89FF54D84F15A257B6D75EC9A /* Pods-GroceryAppTests-acknowledgements.plist */,
+				9902F469775D1A6FC32B49E485CF3778 /* Pods-GroceryAppTests-dummy.m */,
+				D5EFAC71D0D24B6D44B44AA0DF608EB9 /* Pods-GroceryAppTests-frameworks.sh */,
+				A7CCC57AEA0CE26A22A3DF0E3A318B07 /* Pods-GroceryAppTests-resources.sh */,
+				2C64083C744CBEF286805BEBE225FD8A /* Pods-GroceryAppTests-umbrella.h */,
+				63F45C2FD5303FFB353619A45AEAD2E6 /* Pods-GroceryAppTests.debug.xcconfig */,
+				903AAAC47881A0B0BC3CBCC5D5AD0825 /* Pods-GroceryAppTests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-GroceryAppTests";
+			path = "Target Support Files/Pods-GroceryAppTests";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -1169,8 +1289,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				6C714E4BED80B2F82A6DA8A26A88C74F /* Frameworks */,
 				3A39CF16A57C41B605B6B677C12D4330 /* Pods */,
-				733E346D54866C4F372B6C8131785D74 /* Products */,
-				6D80E9F55425C7C7E4D32C427E4765B4 /* Targets Support Files */,
+				0F9A75E605979B1B804654FA485EBF79 /* Products */,
+				E24675A532F954E95E1A41848141568D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1186,6 +1306,24 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/IGListKit";
+			sourceTree = "<group>";
+		};
+		950F531506F7259E646FBF03F94495B0 /* Pods-GroceryAppCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C910FD688614C47AA42DC4446A513 /* Info.plist */,
+				69BDF5F8FEA9F8971BBEDB4E21836CDE /* Pods-GroceryAppCoreTests.modulemap */,
+				0B05F19887044EB7FF8B58FB0ADE542D /* Pods-GroceryAppCoreTests-acknowledgements.markdown */,
+				A2D8D9197CE99950D29FF536285E20C0 /* Pods-GroceryAppCoreTests-acknowledgements.plist */,
+				D3989B5E67245B60D7AE793F5B0F94F3 /* Pods-GroceryAppCoreTests-dummy.m */,
+				75B49AAFCFCD392CE0DFED3AEF2DB22B /* Pods-GroceryAppCoreTests-frameworks.sh */,
+				6273737452AA8BAE922CE0BE3CCDEDDD /* Pods-GroceryAppCoreTests-resources.sh */,
+				0BBD38B63DF4DD5F36F15FDB9A0E9DF7 /* Pods-GroceryAppCoreTests-umbrella.h */,
+				83A7392893D99AAF6F047D4B003F96B1 /* Pods-GroceryAppCoreTests.debug.xcconfig */,
+				CD49F09A5DE66D37FA22ED0D82E94A09 /* Pods-GroceryAppCoreTests.release.xcconfig */,
+			);
+			name = "Pods-GroceryAppCoreTests";
+			path = "Target Support Files/Pods-GroceryAppCoreTests";
 			sourceTree = "<group>";
 		};
 		A08EA03CCDA06ED551F2A53A7BC21CF0 /* iOS */ = {
@@ -1206,6 +1344,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AC2FD7607D012A7014E4B50AF18473BD /* Pods-GroceryApp */ = {
+			isa = PBXGroup;
+			children = (
+				648C20377A987B2EC4C2385E3750B306 /* Info.plist */,
+				9681D67A987FCA19B24B7A665DF1A8C4 /* Pods-GroceryApp.modulemap */,
+				D3A507D5E68962E88C82E1D9C7B723F5 /* Pods-GroceryApp-acknowledgements.markdown */,
+				F23C017FD00C730A9EC47D35AD2EFB2B /* Pods-GroceryApp-acknowledgements.plist */,
+				CEC8BAADDA5D15A645AB6EAC271E8DB1 /* Pods-GroceryApp-dummy.m */,
+				43586102B41F6D917B3803AE4BF36253 /* Pods-GroceryApp-frameworks.sh */,
+				575AF2A43F66BE08A0EBADACEF8A9505 /* Pods-GroceryApp-resources.sh */,
+				AAB3BAFEB17A9208857E1CACED76C30E /* Pods-GroceryApp-umbrella.h */,
+				03C9BC4F6E60FB056A917EF8BC1D85C0 /* Pods-GroceryApp.debug.xcconfig */,
+				7EC442E3A27C339300C8057284896B0F /* Pods-GroceryApp.release.xcconfig */,
+			);
+			name = "Pods-GroceryApp";
+			path = "Target Support Files/Pods-GroceryApp";
+			sourceTree = "<group>";
+		};
 		B767DAC991C429DD05D216FA190D4D5A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1218,6 +1374,18 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RealmSwift";
+			sourceTree = "<group>";
+		};
+		E24675A532F954E95E1A41848141568D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC2FD7607D012A7014E4B50AF18473BD /* Pods-GroceryApp */,
+				261FEBFD7150ACD379C58758E6C6B360 /* Pods-GroceryAppCore */,
+				950F531506F7259E646FBF03F94495B0 /* Pods-GroceryAppCoreTests */,
+				777E6C076C44B3E71729F454DE5FAF2A /* Pods-GroceryAppTests */,
+				65596AEA96322CF49B49D1BC8B2745BD /* Pods-GroceryAppUITests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		E85D7E7FE44E2E3AB55B7F22F7B56A6D /* IGListKit */ = {
@@ -1234,11 +1402,35 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		12F739EA602610BD79546AAABAD4FCC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB7C61996DC1474C1612ECD406B11A2 /* Pods-GroceryAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		293EF6368ABDDB8B203C9460D596B271 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4AD6A2DAF64DD0C7CC7FC09C9A6C3C94 /* RealmSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F0C634BE5F87EDC80548D898C5C2A58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A25FA51B1943EBA1FE29B4786BAB31 /* Pods-GroceryAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B346D324E7099B5A47147A6147ABBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BA542037C747C003F987512821F118 /* Pods-GroceryAppCoreTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1406,7 +1598,29 @@
 			);
 			name = IGListKit;
 			productName = IGListKit;
-			productReference = 6B420C20D66924E242A39260961CCC08 /* IGListKit.framework */;
+			productReference = 222919DDED6191AD0FD422B32A26373B /* IGListKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49E8339D9AD73EE69C3393536FBB5AF1 /* Pods-GroceryAppCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14CEE8851F6B74F56B541F7EAE787EC /* Build configuration list for PBXNativeTarget "Pods-GroceryAppCoreTests" */;
+			buildPhases = (
+				69B346D324E7099B5A47147A6147ABBF /* Headers */,
+				EDE117D2E61A44BD76B5CEA59546A25F /* Sources */,
+				45CDBD3F495918D5A6CCD801FB954F9E /* Frameworks */,
+				8396410E931E0DC401AABA9800B012BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C0933002A354A30DDF53A879C82F2E /* PBXTargetDependency */,
+				6F1B54106E291588E386AAC2AA381BD9 /* PBXTargetDependency */,
+				6535902AC0568371075D692F094A49E4 /* PBXTargetDependency */,
+				25C3EE732239D93812C91898C9B0F351 /* PBXTargetDependency */,
+			);
+			name = "Pods-GroceryAppCoreTests";
+			productName = "Pods-GroceryAppCoreTests";
+			productReference = 8DF5B67F3C9A21E6C831E18AB68E6BB7 /* Pods_GroceryAppCoreTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5D3EC10936CFC5B9F2C8593B7517C6FC /* RealmSwift */ = {
@@ -1425,7 +1639,7 @@
 			);
 			name = RealmSwift;
 			productName = RealmSwift;
-			productReference = 3F7ADF5201DB358DC304AA5EA9BC4047 /* RealmSwift.framework */;
+			productReference = B463233003C358C80BA0ACCCEAEBBDF4 /* RealmSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		80AAF00D6B21D0BAE6B264618FB67E62 /* Realm */ = {
@@ -1445,7 +1659,7 @@
 			);
 			name = Realm;
 			productName = Realm;
-			productReference = EE12C92DEBB28B06109D4C4882AB6848 /* Realm.framework */;
+			productReference = 4C1C24E49B4D15B48CB5818DA65C4460 /* Realm.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		82C4F0E36E837FF47820F78A0453ACD4 /* Pods-GroceryAppCore */ = {
@@ -1466,7 +1680,26 @@
 			);
 			name = "Pods-GroceryAppCore";
 			productName = "Pods-GroceryAppCore";
-			productReference = 567A963A47989CF1044F284BC522E520 /* Pods_GroceryAppCore.framework */;
+			productReference = AD6211B547FD09C1E856769AE3A9914A /* Pods_GroceryAppCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0284DD740092C737E99599FBA0D3187 /* Pods-GroceryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A4B86CC8A6D070157E4EA18EFA2D9E /* Build configuration list for PBXNativeTarget "Pods-GroceryAppUITests" */;
+			buildPhases = (
+				12F739EA602610BD79546AAABAD4FCC4 /* Headers */,
+				855A700854858563795202C7DEE8E009 /* Sources */,
+				32E87CC451A7C492C4EDAE0B133A7357 /* Frameworks */,
+				EC5EDC16F8DD8595A1A923B8E29C9B65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD0FBE5F70E4DE26AE3E0D5EFD3982C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-GroceryAppUITests";
+			productName = "Pods-GroceryAppUITests";
+			productReference = 6375B917FB5662F40F91610EE701AA85 /* Pods_GroceryAppUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DC6F7D768227F16F07DAE2675AFA3010 /* Pods-GroceryApp */ = {
@@ -1487,7 +1720,26 @@
 			);
 			name = "Pods-GroceryApp";
 			productName = "Pods-GroceryApp";
-			productReference = B1605DB72896F8110FC248D9D33F762A /* Pods_GroceryApp.framework */;
+			productReference = C6328BF5FB9D17AAE4138CFB1A600DF3 /* Pods_GroceryApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEB05ECC731FABA6691EB9872262400B /* Pods-GroceryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F8B41EBF0C2763CE41BE3A34C68E41 /* Build configuration list for PBXNativeTarget "Pods-GroceryAppTests" */;
+			buildPhases = (
+				5F0C634BE5F87EDC80548D898C5C2A58 /* Headers */,
+				EDCAAEF33FFE5EA4F0994097AB100B1D /* Sources */,
+				71050A20C84906127D821FDC4038638D /* Frameworks */,
+				19F0AC9B00B8529BB4D7EA082AAB64F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E49D14A6CE7A3115B44171C03DBBF792 /* PBXTargetDependency */,
+			);
+			name = "Pods-GroceryAppTests";
+			productName = "Pods-GroceryAppTests";
+			productReference = F7B3B8D61411DC1756F4DFF3ACA29FFF /* Pods_GroceryAppTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1507,13 +1759,16 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 733E346D54866C4F372B6C8131785D74 /* Products */;
+			productRefGroup = 0F9A75E605979B1B804654FA485EBF79 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1FBC5A5FFFF000A98458DA0DAD8AB232 /* IGListKit */,
 				DC6F7D768227F16F07DAE2675AFA3010 /* Pods-GroceryApp */,
 				82C4F0E36E837FF47820F78A0453ACD4 /* Pods-GroceryAppCore */,
+				49E8339D9AD73EE69C3393536FBB5AF1 /* Pods-GroceryAppCoreTests */,
+				EEB05ECC731FABA6691EB9872262400B /* Pods-GroceryAppTests */,
+				C0284DD740092C737E99599FBA0D3187 /* Pods-GroceryAppUITests */,
 				80AAF00D6B21D0BAE6B264618FB67E62 /* Realm */,
 				5D3EC10936CFC5B9F2C8593B7517C6FC /* RealmSwift */,
 			);
@@ -1522,6 +1777,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		144DECF82803CCFB97D35B03F1FE4B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F0AC9B00B8529BB4D7EA082AAB64F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1542,6 +1804,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8396410E931E0DC401AABA9800B012BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6F74AFC0C58B94672C3939B681AC3E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1550,6 +1819,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EA45A26955619B6D9FD385F52292C728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5EDC16F8DD8595A1A923B8E29C9B65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1724,11 +2000,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		855A700854858563795202C7DEE8E009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAC3AD321BFEA12E8F7F8BFE1B239F7 /* Pods-GroceryAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D99415771E8B00CC2913F93CCE6C68E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9795F42CEA76EC18CA9CFDC847883ECF /* Pods-GroceryApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCAAEF33FFE5EA4F0994097AB100B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB56EEC5AFE996793D825895CF0EA39 /* Pods-GroceryAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE117D2E61A44BD76B5CEA59546A25F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3B3C8F19689281327E7188B8960817 /* Pods-GroceryAppCoreTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1740,6 +2040,12 @@
 			name = IGListKit;
 			target = 1FBC5A5FFFF000A98458DA0DAD8AB232 /* IGListKit */;
 			targetProxy = 80CD651EB9BA6BAABAD5277CF8242989 /* PBXContainerItemProxy */;
+		};
+		25C3EE732239D93812C91898C9B0F351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RealmSwift;
+			target = 5D3EC10936CFC5B9F2C8593B7517C6FC /* RealmSwift */;
+			targetProxy = 620ABB169AECC076D1F00F829FF7FFCE /* PBXContainerItemProxy */;
 		};
 		45FB7163EC32810A878218020136F2FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1753,6 +2059,18 @@
 			target = 80AAF00D6B21D0BAE6B264618FB67E62 /* Realm */;
 			targetProxy = B21AAD7AC5007ED38C232338ACD2937A /* PBXContainerItemProxy */;
 		};
+		6535902AC0568371075D692F094A49E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Realm;
+			target = 80AAF00D6B21D0BAE6B264618FB67E62 /* Realm */;
+			targetProxy = E17E6C714C8A66563BF6649FD33D787C /* PBXContainerItemProxy */;
+		};
+		6F1B54106E291588E386AAC2AA381BD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GroceryAppCore";
+			target = 82C4F0E36E837FF47820F78A0453ACD4 /* Pods-GroceryAppCore */;
+			targetProxy = F48E8B1C6B04D5F7557908A3DD7A57A8 /* PBXContainerItemProxy */;
+		};
 		B94C36D67A3B6E8EDC90BA09F96895C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Realm;
@@ -1765,11 +2083,29 @@
 			target = 5D3EC10936CFC5B9F2C8593B7517C6FC /* RealmSwift */;
 			targetProxy = DC789F1137B07C27F05217A7EB6F3DF4 /* PBXContainerItemProxy */;
 		};
+		D6C0933002A354A30DDF53A879C82F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGListKit;
+			target = 1FBC5A5FFFF000A98458DA0DAD8AB232 /* IGListKit */;
+			targetProxy = 5774A8EF17F2090A5E1DF93FFCFE781A /* PBXContainerItemProxy */;
+		};
+		DD0FBE5F70E4DE26AE3E0D5EFD3982C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GroceryApp";
+			target = DC6F7D768227F16F07DAE2675AFA3010 /* Pods-GroceryApp */;
+			targetProxy = 8527DB2CCA13EDB67223653AC342A50F /* PBXContainerItemProxy */;
+		};
 		E0D1CC6A0331AC1611A1AC1C6BDE1D5E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IGListKit;
 			target = 1FBC5A5FFFF000A98458DA0DAD8AB232 /* IGListKit */;
 			targetProxy = 83C60571C2CC8118620E6A738D468E41 /* PBXContainerItemProxy */;
+		};
+		E49D14A6CE7A3115B44171C03DBBF792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GroceryApp";
+			target = DC6F7D768227F16F07DAE2675AFA3010 /* Pods-GroceryApp */;
+			targetProxy = BE0BBA06ED4C16B687F998EBAA08C394 /* PBXContainerItemProxy */;
 		};
 		FE7F66D9BCFFB43464DE21A4984730E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1780,6 +2116,46 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		046A68BBB920C4EAA3D741EF90B4853C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A7392893D99AAF6F047D4B003F96B1 /* Pods-GroceryAppCoreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GroceryAppCoreTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GroceryAppCoreTests/Pods-GroceryAppCoreTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		0FB3EBFB896BE01BB168AE75F1022B52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 99CF61D441D36518BAA67CC89E479BB3 /* RealmSwift.xcconfig */;
@@ -1853,9 +2229,47 @@
 			};
 			name = Debug;
 		};
+		298C650EACD1A3395E3501B8A0291BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F94A5306034640A620F41BF9436D47C /* Pods-GroceryAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GroceryAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GroceryAppUITests/Pods-GroceryAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		39941E7CCD9797147B7DB098F60D938C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C42BEAABA96536E977B1F350361AAE4 /* Pods-GroceryApp.debug.xcconfig */;
+			baseConfigurationReference = 03C9BC4F6E60FB056A917EF8BC1D85C0 /* Pods-GroceryApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1895,7 +2309,7 @@
 		};
 		4B54D686F95CA9CD2D755084305A0F0B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2FD7BD8F166545EDFCAD1DAAAEA2455 /* Pods-GroceryAppCore.release.xcconfig */;
+			baseConfigurationReference = 4916B5233AA19C1494EBEF5C922FA912 /* Pods-GroceryAppCore.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1934,6 +2348,44 @@
 			};
 			name = Release;
 		};
+		67C18A47642E09DDE4715E2C4BE18E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F45C2FD5303FFB353619A45AEAD2E6 /* Pods-GroceryAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GroceryAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GroceryAppTests/Pods-GroceryAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6A58708C4958B2991E1B70E365850B00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84F37FDFDA0511D3B42106521875497F /* IGListKit.xcconfig */;
@@ -1968,6 +2420,84 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		71ED3E97E8F8D1C8776EEDEA266D080C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903AAAC47881A0B0BC3CBCC5D5AD0825 /* Pods-GroceryAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GroceryAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GroceryAppTests/Pods-GroceryAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72B8D324FAD2F3BC911436B0C4EB9AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99EDAECF02AC33DA746EC42B2E2D7BB9 /* Pods-GroceryAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GroceryAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GroceryAppUITests/Pods-GroceryAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8E27E3624B388F24D00CD410E1784082 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2143,7 +2673,7 @@
 		};
 		D7D3E2817AF20531A20C606ED8441101 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B678ECD89716464BB06FE3CB6DD2D6CC /* Pods-GroceryApp.release.xcconfig */;
+			baseConfigurationReference = 7EC442E3A27C339300C8057284896B0F /* Pods-GroceryApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2184,7 +2714,7 @@
 		};
 		E488E5C802E54805981CD4674206A0A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E00831C2AD36C0F77238B739466913E /* Pods-GroceryAppCore.debug.xcconfig */;
+			baseConfigurationReference = 65463AD0202094F308B09CCC19B08A3A /* Pods-GroceryAppCore.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2221,6 +2751,47 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		E99B7ED39EBD20335BA5C479B8479762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD49F09A5DE66D37FA22ED0D82E94A09 /* Pods-GroceryAppCoreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GroceryAppCoreTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GroceryAppCoreTests/Pods-GroceryAppCoreTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		EA8C7AF90938697605468604B2A17B9F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2311,6 +2882,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		75F8B41EBF0C2763CE41BE3A34C68E41 /* Build configuration list for PBXNativeTarget "Pods-GroceryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C18A47642E09DDE4715E2C4BE18E27 /* Debug */,
+				71ED3E97E8F8D1C8776EEDEA266D080C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D3B819A46F2297F5F78894FD86D24CF4 /* Build configuration list for PBXNativeTarget "Realm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2325,6 +2905,24 @@
 			buildConfigurations = (
 				E488E5C802E54805981CD4674206A0A5 /* Debug */,
 				4B54D686F95CA9CD2D755084305A0F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14CEE8851F6B74F56B541F7EAE787EC /* Build configuration list for PBXNativeTarget "Pods-GroceryAppCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046A68BBB920C4EAA3D741EF90B4853C /* Debug */,
+				E99B7ED39EBD20335BA5C479B8479762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9A4B86CC8A6D070157E4EA18EFA2D9E /* Build configuration list for PBXNativeTarget "Pods-GroceryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298C650EACD1A3395E3501B8A0291BBB /* Debug */,
+				72B8D324FAD2F3BC911436B0C4EB9AFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
