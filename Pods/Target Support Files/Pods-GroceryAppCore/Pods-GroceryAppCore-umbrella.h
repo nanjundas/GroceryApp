@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_GroceryAppTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_GroceryAppTestsVersionString[];
+FOUNDATION_EXPORT double Pods_GroceryAppCoreVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_GroceryAppCoreVersionString[];
 

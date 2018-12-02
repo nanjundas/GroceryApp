@@ -2,7 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:GroceryApp.xcodeproj">
+      location = "group:GroceryApp/GroceryApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GroceryAppCore/GroceryAppCore.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
