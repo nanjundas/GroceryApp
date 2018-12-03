@@ -17,6 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        if let realm = try? Realm() {
+            try? realm.write {
+                realm.deleteAll()
+            }
+        }
+        
 //        var config = Realm.Configuration()
 //        config.deleteRealmIfMigrationNeeded = true
 //        Realm.Configuration.defaultConfiguration = config

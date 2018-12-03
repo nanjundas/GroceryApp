@@ -25,6 +25,7 @@
 		67BE4D9821B3516400DDB9B1 /* GroceryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE4D9721B3516400DDB9B1 /* GroceryAppUITests.swift */; };
 		67BE4DAB21B3559200DDB9B1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE4DAA21B3559200DDB9B1 /* BaseViewController.swift */; };
 		67BE4DAE21B3563C00DDB9B1 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE4DAD21B3563C00DDB9B1 /* UIKitExtensions.swift */; };
+		67BE69D721B5641700BAF9A7 /* ListSpinnerSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE69D621B5641700BAF9A7 /* ListSpinnerSectionController.swift */; };
 		D145FEB5A05F6491E16A14F5 /* Pods_GroceryAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240E730A698BAD944CFAD1CC /* Pods_GroceryAppUITests.framework */; };
 		E4E2DF544052A51CAA175F89 /* Pods_GroceryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DDCF115E9005AED80CD929 /* Pods_GroceryApp.framework */; };
 		F97715783BB282BAEE9CC87F /* Pods_GroceryAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB19FA6CA131899825004CB /* Pods_GroceryAppTests.framework */; };
@@ -91,6 +92,7 @@
 		67BE4D9921B3516400DDB9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67BE4DAA21B3559200DDB9B1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		67BE4DAD21B3563C00DDB9B1 /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		67BE69D621B5641700BAF9A7 /* ListSpinnerSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSpinnerSectionController.swift; sourceTree = "<group>"; };
 		9AB19FA6CA131899825004CB /* Pods_GroceryAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC5B1727A7E5B345DF749FC8 /* Pods-GroceryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryAppTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GroceryAppTests/Pods-GroceryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FFE84F441222F23EB54DAFB2 /* Pods-GroceryAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryAppUITests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GroceryAppUITests/Pods-GroceryAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			children = (
 				675A033521B43E92001F5D4D /* Cells */,
 				679C35E321B42B2B006F963E /* ProductsSectionController.swift */,
+				67BE69D621B5641700BAF9A7 /* ListSpinnerSectionController.swift */,
 			);
 			path = SectionControllers;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67BE69D721B5641700BAF9A7 /* ListSpinnerSectionController.swift in Sources */,
 				679C35DD21B4279E006F963E /* CatalogueViewModel.swift in Sources */,
 				679C35DF21B427AC006F963E /* ViewDataModel.swift in Sources */,
 				67BE4D7A21B3516300DDB9B1 /* CatalogueViewController.swift in Sources */,

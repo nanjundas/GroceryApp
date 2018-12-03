@@ -20,7 +20,7 @@ class CatalogueViewModel: ViewDataModel {
         
     }
     
-    open override func populateData(cache: Bool) {
+    open override func populateData(cache: Bool ) {
         
         let products = realm.objects(Product.self)
         let token = products._observe { (notification) in
@@ -32,7 +32,10 @@ class CatalogueViewModel: ViewDataModel {
                 var objs = [Product]()
                 
                 for index in modifications {
-                    objs.append(self.listData[index])
+                    
+                    if(index < self.listData.count) {
+                        objs.append(self.listData[index])
+                    }
                 }
                 
                 if objs.count > 0 {
@@ -49,7 +52,7 @@ class CatalogueViewModel: ViewDataModel {
         
         self.token = token
         self.listData.removeAll()
-        self.listData.append(contentsOf: products)
+        self.listData.append(contentsOf: products)        
     }
     
     open override func refreshFeed(forceLoad: Bool = false, callback: @escaping (_ error: Error?) -> Void) -> Void {

@@ -12,13 +12,20 @@ import RealmSwift
 import GroceryAppCore
 
 class CatalogueViewController: BaseViewController {
-
+    
     let model = CatalogueViewModel()
     
     override func didPullToRefresh(_ refreshControl: UIRefreshControl) {
         refreshFeed(forceLoad: true)
     }
-
+    
+    override func loadMore() {
+        isLoadMore = true
+        loadNextPage()
+        self.updateSectionData(nil)
+        self.adapter.performUpdates(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -38,7 +45,11 @@ extension CatalogueViewController {
     func performUpdates(_ error: Error?) {
         
         self.refreshCtl.endRefreshing()
+        
         self.listData = self.model.listData
+        self.isLoadMore = false
+        
+        self.updateSectionData(error)
         self.adapter.performUpdates(animated: true, completion: nil)
     }
     
@@ -49,6 +60,13 @@ extension CatalogueViewController {
     func refreshFeed(forceLoad: Bool = false) {
         
         self.model.refreshFeed { (error) in
+            self.performUpdates(error)
+        }
+    }
+    
+    func loadNextPage() {
+        
+        self.model.loadNextPage { (error) in
             self.performUpdates(error)
         }
     }
@@ -67,10 +85,15 @@ extension CatalogueViewController: ViewDataModelRefreshProtocol {
 extension CatalogueViewController: ListAdapterDataSource {
     
     func objects(for listAdapter: ListAdapter) -> [ListDiffable] {
-        return self.listData as! [ListDiffable]
+        return self.controllerData as! [ListDiffable]
     }
     
     func listAdapter(_ listAdapter: ListAdapter, sectionControllerFor object: Any) -> ListSectionController {
+        
+        if let section = self.sectionControllerFor(object: object) {
+            return section
+        }
+        
         return ProductsSectionController()
     }
     

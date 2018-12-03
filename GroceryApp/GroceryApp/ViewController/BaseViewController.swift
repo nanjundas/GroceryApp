@@ -18,9 +18,13 @@ protocol ListViewControllerRefreshProtocol {
 
 class BaseViewController: UIViewController, ListViewControllerRefreshProtocol {
 
+    typealias LoadMore = Bool
+    
     open var listData: Array<Any> = []
+    
+    var controllerData: Array<Any> = []
 
-    var isLoadMore = false
+    var isLoadMore: LoadMore = false
     var isLoading = false
     
     lazy var refreshCtl: UIRefreshControl = {
@@ -51,10 +55,10 @@ class BaseViewController: UIViewController, ListViewControllerRefreshProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = UIColor(hex: 0xfaf9f9)
+        self.view.backgroundColor = UIColor(hex: 0xe9e9e9)
         self.view.addSubview(self.collectionView)
         
-        self.collectionView.backgroundColor = UIColor(hex: 0xfaf9f9)
+        self.collectionView.backgroundColor = UIColor(hex: 0xe9e9e9)
         self.collectionView.refreshControl = self.refreshCtl
         
         adapter.collectionView = collectionView        
@@ -72,7 +76,29 @@ class BaseViewController: UIViewController, ListViewControllerRefreshProtocol {
         
     }
     
-    open func loadMore() {}
+    func loadMore() {
+        
+    }
+
+    func updateSectionData(_ error: Error?) {
+        
+        self.controllerData.removeAll()
+        
+        self.controllerData.append(self.listData)
+        
+        if(isLoadMore) {
+            self.controllerData.append(self.isLoadMore)
+        }
+    }
+    
+    func sectionControllerFor(object: Any) -> ListSectionController? {
+        
+        if object is LoadMore {
+            return ListSpinnerSectionController()
+        }
+        
+        return nil
+    }
 }
 
 extension BaseViewController: UIScrollViewDelegate {

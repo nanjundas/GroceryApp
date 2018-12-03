@@ -31,10 +31,15 @@ extension DataManager {
                 }
             }
             
-            DispatchQueue.main.sync {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1, execute: {
                 result = DataManagerResult.success(true)
                 completion(result)
-            }
+
+            })
+//            DispatchQueue.main.sync {
+//                result = DataManagerResult.success(true)
+//                completion(result)
+//            }
         }
     }
 }

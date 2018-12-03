@@ -21,6 +21,7 @@ class ProductsSectionController: ListSectionController {
 
         inset = UIEdgeInsets(top: 0, left: 0, bottom: 16, right: 0)
         minimumInteritemSpacing = 16
+        minimumLineSpacing = 16
     }
     
     override func numberOfItems() -> Int {
@@ -58,8 +59,11 @@ class ProductsSectionController: ListSectionController {
         
         items.removeAll()
         
-        if let obj = object as? Product {
-            self.items.append(obj)
+        if let products = object as? [Product] {
+            
+            for obj in products {
+                self.items.append(obj)
+            }
         }
     }
 }
