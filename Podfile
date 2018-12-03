@@ -10,6 +10,7 @@ target 'GroceryAppCore' do
 
     pod 'IGListKit'
     pod 'RealmSwift'
+    pod 'Kingfisher'
     
     project './GroceryAppCore/GroceryAppCore.xcodeproj'
 
@@ -24,6 +25,7 @@ target 'GroceryApp' do
 
     pod 'IGListKit'
     pod 'RealmSwift'
+    pod 'Kingfisher'
 
     project './GroceryApp/GroceryApp.xcodeproj'
     

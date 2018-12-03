@@ -20,7 +20,6 @@ public class DataManager: NSObject {
         #endif
         
         urlSessionConfiguration =  URLSessionConfiguration.default
-        urlSession = URLSession(configuration:urlSessionConfiguration)
         
         if let realm = try? Realm(){
             var config = realm.configuration
@@ -32,7 +31,9 @@ public class DataManager: NSObject {
     typealias DataManagerCompletion = (_ status:Int, _ object: Any? , _ error: Error?) -> (Void)
     
     internal var urlSessionConfiguration : URLSessionConfiguration
-    internal var urlSession : URLSession
+    internal lazy var urlSession:URLSession = {
+        return URLSession(configuration: urlSessionConfiguration, delegate: self, delegateQueue: nil)
+    }()
     
     public static let sharedInstance = DataManager()
     public var logToConsole: Bool = true
@@ -96,5 +97,13 @@ public class DataManager: NSObject {
             
             completion(result)
         }
+    }
+}
+
+extension DataManager: URLSessionDelegate {
+    
+    public func urlSession(_ session: URLSession, didReceive challenge: URLAuthenticationChallenge, completionHandler: @escaping (URLSession.AuthChallengeDisposition, URLCredential?) -> Void) {
+        
+        completionHandler(.useCredential, (challenge.protectionSpace.serverTrust != nil) ? URLCredential(trust: challenge.protectionSpace.serverTrust!) : nil)
     }
 }

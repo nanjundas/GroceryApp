@@ -12,8 +12,18 @@ internal class APIRequest {
     
     static internal func catalogueSearchRequest(query: DataManagerQuery) -> URLRequest {
         
-        let url = URLEncoder.requestURL(path: .catalogSearch, queryParam: ["pageSize" : String(query.recordsPerPage),
-                                                                           "page" : String(query.startPage)])
+        var params = query.params
+        params["pageSize"] = String(query.recordsPerPage)
+        params["page"] = String(query.startPage)
+        
+        let url = URLEncoder.requestURL(path: .catalogSearch, queryParam: params as! URLEncoder.QueryParams)
+        return URLRequest.getRequest(url: url)
+    }
+    
+    static internal func imageDownloadRequest(path: String) -> URLRequest {
+     
+        let url = URL(string: BaseURL.imageBaseUrl + path)!
+        
         return URLRequest.getRequest(url: url)
     }
 }

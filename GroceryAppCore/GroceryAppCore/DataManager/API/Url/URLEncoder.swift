@@ -13,9 +13,9 @@ internal class URLEncoder: NSObject {
     
     typealias QueryParams = [String: String]
     
-    internal class func requestURL(path: URLPath, queryParam: QueryParams = [:]) -> URL {
+    internal class func requestURL(baseUrl: String = BaseURL.value, path: URLPath, queryParam: QueryParams = [:]) -> URL {
         
-        let url = URL.init(string: path.urlPath, relativeTo: URL(string: BaseURL.value)!)
+        let url = URL.init(string: path.urlPath, relativeTo: URL(string: baseUrl)!)
         
         var components = URLComponents.init(string: url!.absoluteString)
         var queryItems = [URLQueryItem]()

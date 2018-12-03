@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		08AE7ECD8CC815B07C8F0FB4 /* Pods_GroceryAppCoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E2BF6680388E7D3ECC954A /* Pods_GroceryAppCoreTests.framework */; };
+		675A033B21B4495B001F5D4D /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675A033A21B4495B001F5D4D /* Download.swift */; };
 		679C35D121B40C33006F963E /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C35D021B40C33006F963E /* APIRequest.swift */; };
 		679C35D321B40CC6006F963E /* URLRequest_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C35D221B40CC6006F963E /* URLRequest_Base.swift */; };
 		679C35D821B41D70006F963E /* ObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679C35D721B41D70006F963E /* ObjectProtocol.swift */; };
@@ -42,6 +43,7 @@
 		0C52AC8BF661D3095106A419 /* Pods-GroceryAppCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryAppCoreTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GroceryAppCoreTests/Pods-GroceryAppCoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		0EFA9FEFBE48DE22369027BE /* Pods_GroceryAppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryAppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		224148AAC3BA49DAAA0FD921 /* Pods-GroceryAppCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryAppCore.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GroceryAppCore/Pods-GroceryAppCore.debug.xcconfig"; sourceTree = "<group>"; };
+		675A033A21B4495B001F5D4D /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 		679C35D021B40C33006F963E /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		679C35D221B40CC6006F963E /* URLRequest_Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest_Base.swift; sourceTree = "<group>"; };
 		679C35D721B41D70006F963E /* ObjectProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectProtocol.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		67DB705521B3F5D7008C5F34 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
+				675A033A21B4495B001F5D4D /* Download.swift */,
 				67DB706921B3F805008C5F34 /* Search.swift */,
 				67DB706821B3F7EC008C5F34 /* Base */,
 				67DB705821B3F5D7008C5F34 /* API */,
@@ -366,6 +369,7 @@
 			inputPaths = (
 				"${SRCROOT}/../Pods/Target Support Files/Pods-GroceryAppCoreTests/Pods-GroceryAppCoreTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
@@ -374,6 +378,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
@@ -401,6 +406,7 @@
 				67DB706F21B3FA02008C5F34 /* Extensions.swift in Sources */,
 				67DB705C21B3F5D7008C5F34 /* DataManager.swift in Sources */,
 				679C35D321B40CC6006F963E /* URLRequest_Base.swift in Sources */,
+				675A033B21B4495B001F5D4D /* Download.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

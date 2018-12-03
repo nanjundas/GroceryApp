@@ -13,5 +13,5 @@ public final class DataManagerQuery: NSObject {
     public var startPage: Int = 0
     public var recordsPerPage: Int = 30
     
-    public var params: Dictionary<String, Any> = [:]
+    public var params: Dictionary<String, String> = [:]
 }
