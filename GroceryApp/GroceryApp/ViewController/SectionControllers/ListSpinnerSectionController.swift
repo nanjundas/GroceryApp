@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import IGListKit
 
-internal class SpinnerCell:UICollectionViewCell {
+internal class SpinnerCell: UICollectionViewCell {
     
     lazy var spinner:UIActivityIndicatorView = {
         

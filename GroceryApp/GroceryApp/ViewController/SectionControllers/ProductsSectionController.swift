@@ -66,6 +66,15 @@ class ProductsSectionController: ListSectionController {
             }
         }
     }
+    
+    override func didSelectItem(at index: Int) {
+        
+        let vc = ProductDetailsViewController()
+        
+        UISelectionFeedbackGenerator().selectionChanged()
+        
+        self.viewController?.navigationController?.present(vc, animated: true, completion: nil)
+    }
 }
 
 

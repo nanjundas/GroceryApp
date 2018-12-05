@@ -20,7 +20,7 @@ final public class Product: Object {
     @objc public fileprivate(set) dynamic var promoPrice: Double = 0
     @objc public fileprivate(set) dynamic var savingsText: String = NA
     
-    public internal(set) var images = List<String>()
+    public internal(set) var images = List<Image>()
     
     public override class func primaryKey() -> String{
         return "id"
@@ -45,14 +45,9 @@ extension Product: ObjectProtocol {
             input["savingsText"] = pricing["savings_text"]
         }
         
-        var images: [String] = []
         if let imageJson = json["images"] as? [[String:Any]] {
-            
-            for image in imageJson{
-                images.append(image["name"] as! String)
-            }
+           input["images"] = imageJson
         }
-        input["images"] = images
         
         return input
     }
@@ -66,34 +61,20 @@ extension Product {
     
     public func cachedThumbnailImage() -> UIImage? {
         
-        let thumbnailImageKey = "ListImage" + self.sku
+        if let image = self.images.first {
+            return image.cachedImage()
+        }
         
-        return ImageCache.default.retrieveImageInDiskCache(forKey: thumbnailImageKey)
+        return nil
     }
     
     public func refreshThumbnailImage(_ block: @escaping (_ image: UIImage?) -> Void) -> Void {
         
-        let thumbnailImageKey = "ListImage" + self.sku
-        
-        if (images.count == 0) {
-            block(nil)
-            return
-        }
-        
-        DataManager.sharedInstance.downloadImage(imageUrl: images.first ?? "") { (result) in
+        if let image = self.images.first {
             
-            if let data = result.value, let image = UIImage(data: data) {
-                
-                ImageCache.default.store(image,
-                                         original: data,
-                                         forKey: thumbnailImageKey,
-                                         toDisk: true)
+            image.refreshImage { (image) in                
                 block(image)
-            }
-            else {
-                block(nil)
             }
         }
     }
-    
 }

@@ -17,7 +17,7 @@ protocol ListViewControllerRefreshProtocol {
 }
 
 class BaseViewController: UIViewController, ListViewControllerRefreshProtocol {
-
+    
     typealias LoadMore = Bool
     
     open var listData: Array<Any> = []
