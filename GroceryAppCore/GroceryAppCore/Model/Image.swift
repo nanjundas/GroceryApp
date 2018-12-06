@@ -19,14 +19,14 @@ final public class Image: Object {
         return "ProductImage" + imagePath
     }
     
-    internal func cachedImage() -> UIImage? {
+    public func cachedImage() -> UIImage? {
         
         let thumbnailImageKey = imageKey(self.name)
         
         return ImageCache.default.retrieveImageInDiskCache(forKey: thumbnailImageKey)
     }
     
-    internal func refreshImage(_ block: @escaping (_ image: UIImage?) -> Void) -> Void {
+    public func refreshImage(_ block: @escaping (_ image: UIImage?) -> Void) -> Void {
         
         let thumbnailImageKey = imageKey(self.name)
         

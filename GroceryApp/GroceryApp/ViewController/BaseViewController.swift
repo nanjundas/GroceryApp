@@ -68,7 +68,7 @@ class BaseViewController: UIViewController, ListViewControllerRefreshProtocol {
         
         super.viewDidLayoutSubviews()
         
-        self.collectionView.frame = self.view.bounds.inset(by: UIEdgeInsets(top: 16, left: 16, bottom: 16, right: 16))
+        self.collectionView.frame = self.view.bounds //.inset(by: UIEdgeInsets(top: 16, left: 16, bottom: 16, right: 16))
         self.adapter.collectionView?.collectionViewLayout.invalidateLayout()
     }
     

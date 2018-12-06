@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="bN1-oa-Ks4" customClass="PriceSectionCell" customModule="GroceryApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="264" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="264" height="85"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RedMart Strong and Absorbent Kitchen Towels" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7KF-zT-Ujt">
+                        <rect key="frame" x="10" y="35" width="244" height="41"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="41" id="wYv-Sm-Vfx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                        <color key="textColor" red="0.2156862745" green="0.2156862745" blue="0.21960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 12.45" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SRi-7M-R11">
+                        <rect key="frame" x="10" y="10" width="244" height="24"/>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                        <color key="textColor" red="0.2666666667" green="0.58431372550000005" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="7KF-zT-Ujt" firstAttribute="leading" secondItem="SRi-7M-R11" secondAttribute="leading" id="CHW-jJ-32g"/>
+                <constraint firstItem="7KF-zT-Ujt" firstAttribute="top" secondItem="SRi-7M-R11" secondAttribute="bottom" constant="1" id="cdt-yS-Jaf"/>
+                <constraint firstItem="7KF-zT-Ujt" firstAttribute="trailing" secondItem="SRi-7M-R11" secondAttribute="trailing" id="hEU-oz-zbs"/>
+                <constraint firstItem="SRi-7M-R11" firstAttribute="top" secondItem="bN1-oa-Ks4" secondAttribute="top" constant="10" id="nCW-SE-Tuu"/>
+                <constraint firstItem="SRi-7M-R11" firstAttribute="leading" secondItem="bN1-oa-Ks4" secondAttribute="leading" constant="10" id="ngA-5k-cAB"/>
+                <constraint firstItem="vKr-lZ-qWJ" firstAttribute="trailing" secondItem="SRi-7M-R11" secondAttribute="trailing" constant="10" id="xzv-Kb-pyY"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vKr-lZ-qWJ"/>
+            <size key="customSize" width="264" height="85"/>
+            <connections>
+                <outlet property="nameLabel" destination="7KF-zT-Ujt" id="qaT-on-Ck7"/>
+                <outlet property="priceLabel" destination="SRi-7M-R11" id="vMG-im-rN8"/>
+            </connections>
+            <point key="canvasLocation" x="339.19999999999999" y="89.505247376311857"/>
+        </collectionViewCell>
+    </objects>
+</document>

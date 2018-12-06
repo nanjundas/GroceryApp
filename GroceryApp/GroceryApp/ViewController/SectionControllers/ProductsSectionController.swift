@@ -19,7 +19,7 @@ class ProductsSectionController: ListSectionController {
         super.init()
         displayDelegate = self
 
-        inset = UIEdgeInsets(top: 0, left: 0, bottom: 16, right: 0)
+        inset = UIEdgeInsets(top: 16, left: 16, bottom: 16, right: 0)
         minimumInteritemSpacing = 16
         minimumLineSpacing = 16
     }
@@ -32,7 +32,7 @@ class ProductsSectionController: ListSectionController {
         
         let width = collectionContext?.containerSize.width ?? 0
         let totalSpace = width - (minimumInteritemSpacing)
-        let itemSize = floor(totalSpace / 2)
+        let itemSize = floor(totalSpace / 2) - 16
         return CGSize(width: itemSize, height: itemSize * 1.5)
     }
     
@@ -44,13 +44,18 @@ class ProductsSectionController: ListSectionController {
     
         let product = items[index]
         
-        cell.priceLabel.text = "$\(product.promoPrice)"
+        cell.priceLabel.text = "$\(product.promoPrice == 0 ? product.price : product.promoPrice)"
         cell.nameLabel.text = product.title
         cell.thumbImageView.image = product.cachedThumbnailImage()
         
-        let attributeString: NSMutableAttributedString =  NSMutableAttributedString(string: "$\(product.price)")
-        attributeString.addAttribute(NSAttributedString.Key.strikethroughStyle, value: 2, range: NSMakeRange(0, attributeString.length))
-        cell.subTextLabel.attributedText = attributeString
+        if (product.promoPrice > 0) {
+            let attributeString: NSMutableAttributedString =  NSMutableAttributedString(string: "$\(product.price)")
+            attributeString.addAttribute(NSAttributedString.Key.strikethroughStyle, value: 2, range: NSMakeRange(0, attributeString.length))
+            cell.subTextLabel.attributedText = attributeString
+        }
+        else {
+            cell.subTextLabel.text = ""
+        }
         
         return cell
     }
@@ -70,10 +75,11 @@ class ProductsSectionController: ListSectionController {
     override func didSelectItem(at index: Int) {
         
         let vc = ProductDetailsViewController()
+        vc.product = self.items[index]
         
         UISelectionFeedbackGenerator().selectionChanged()
         
-        self.viewController?.navigationController?.present(vc, animated: true, completion: nil)
+        self.viewController?.navigationController?.pushViewController(vc, animated: true)
     }
 }
 

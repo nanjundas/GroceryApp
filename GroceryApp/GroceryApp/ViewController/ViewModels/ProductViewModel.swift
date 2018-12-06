@@ -10,8 +10,10 @@ import Foundation
 import RealmSwift
 import GroceryAppCore
 
-class ProductViewModel: ViewDataModel {
+typealias ProductDesc = String
 
+class ProductViewModel: ViewDataModel {
+    
     let realm = try! Realm()
     
     var listData = Array<Any>()
@@ -41,5 +43,19 @@ class ProductViewModel: ViewDataModel {
     open override func populateData(cache: Bool = false) {
 
         listData.removeAll()
+        
+        if let images = product?.images {
+            listData.append(Array(images))
+        }
+        
+        if let product = product {
+            listData.append(product)
+        }
+        
+        if let desc = product?.desc {
+            listData.append(desc)
+        }
+        
+        self.delegate?.modelDidRefresh(object: listData, error: nil)
     }
 }

@@ -11,92 +11,71 @@ import IGListKit
 import RealmSwift
 import GroceryAppCore
 
-//class ProductImageSlideSectionController: ListSectionController {
-//    
-//    var product: Product?
-//    
-//    override init() {
-//        super.init()
-//        displayDelegate = self
-//        
-//        inset = UIEdgeInsets(top: 0, left: 0, bottom: 16, right: 0)
-//        minimumInteritemSpacing = 16
-//        minimumLineSpacing = 16
-//    }
-//    
-//    override func numberOfItems() -> Int {
-//        return self.product?.images.count ?? 0
-//    }
-//    
-//    override func sizeForItem(at index: Int) -> CGSize {
-//        
-//        let width = collectionContext?.containerSize.width ?? 0
-//        let totalSpace = width - (minimumInteritemSpacing)
-//        let itemSize = floor(totalSpace / 2)
-//        return CGSize(width: itemSize, height: itemSize * 1.5)
-//    }
-//    
-//    override func cellForItem(at index: Int) -> UICollectionViewCell {
-//        
-//        guard let cell = collectionContext?.dequeueReusableCell(withNibName: "ProductCell", bundle: nil, for: self, at: index) as? ProductCell else {
-//            fatalError()
-//        }
-//        
-//        let product = items[index]
-//        
-//        cell.priceLabel.text = "$\(product.promoPrice)"
-//        cell.nameLabel.text = product.title
-//        cell.thumbImageView.image = product.cachedThumbnailImage()
-//        
-//        let attributeString: NSMutableAttributedString =  NSMutableAttributedString(string: "$\(product.price)")
-//        attributeString.addAttribute(NSAttributedString.Key.strikethroughStyle, value: 2, range: NSMakeRange(0, attributeString.length))
-//        cell.subTextLabel.attributedText = attributeString
-//        
-//        return cell
-//    }
-//    
-//    override func didUpdate(to object: Any) {
-//        
-//        if let products = object as? Product {
-//            
-//            self.product = product
-//        }
-//    }
-//    
-//    override func didSelectItem(at index: Int) {
-//        
-//        let vc = ProductDetailsViewController()
-//        
-//        UISelectionFeedbackGenerator().selectionChanged()
-//        
-//        self.viewController?.navigationController?.present(vc, animated: true, completion: nil)
-//    }
-//}
-//
-//
-//extension ProductImageSlideSectionController: ListDisplayDelegate {
-//    
-//    func listAdapter(_ listAdapter: ListAdapter, willDisplay sectionController: ListSectionController, cell: UICollectionViewCell, at index: Int) {
-//        
-//        let cachedProduct = self.items[index]
-//        let currentIndex = index
-//        
-//        guard let realm = try? Realm(), let product = realm.object(ofType: Product.self, forPrimaryKey:cachedProduct.id) else { return }
-//        
-//        if product.cachedThumbnailImage() == nil {
-//            product.refreshThumbnailImage { (image) in
-//                
-//                DispatchQueue.main.async {
-//                    
-//                    if let cell = self.collectionContext?.cellForItem(at: currentIndex, sectionController: sectionController) as? ProductCell {
-//                        cell.thumbImageView?.image = image
-//                    }
-//                }
-//            }
-//        }
-//    }
-//    
-//    func listAdapter(_ listAdapter: ListAdapter, didEndDisplaying sectionController: ListSectionController, cell: UICollectionViewCell, at index: Int) {}
-//    func listAdapter(_ listAdapter: ListAdapter, willDisplay sectionController: ListSectionController) {}
-//    func listAdapter(_ listAdapter: ListAdapter, didEndDisplaying sectionController: ListSectionController) {}
-//}
+final class EmbeddedCollectionViewCell: UICollectionViewCell {
+    
+    lazy var collectionView: UICollectionView = {
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .horizontal
+        let view = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        view.backgroundColor = .white
+        view.alwaysBounceVertical = false
+        view.alwaysBounceHorizontal = true
+        view.isPagingEnabled = true
+        self.contentView.addSubview(view)
+        return view
+    }()
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        collectionView.frame = contentView.frame
+    }
+}
+
+
+class ProductImageSlideSectionController: ListSectionController {
+
+    var images: [Image]?
+
+    lazy var adapter: ListAdapter = {
+        let adapter = ListAdapter(updater: ListAdapterUpdater(),
+                                  viewController: self.viewController)
+        adapter.dataSource = self
+        return adapter
+    }()
+    
+    override func sizeForItem(at index: Int) -> CGSize {
+        let width = collectionContext?.containerSize.width ?? 0
+        return CGSize(width: width, height: width * 0.75)
+    }
+    
+    override func cellForItem(at index: Int) -> UICollectionViewCell {
+
+        guard let cell = collectionContext?.dequeueReusableCell(of: EmbeddedCollectionViewCell.self,
+                                                                for: self,
+                                                                at: index) as? EmbeddedCollectionViewCell else {
+                                                                    fatalError()
+        }
+        adapter.collectionView = cell.collectionView
+        return cell
+    }
+
+    override func didUpdate(to object: Any) {
+        images = object as? [Image]
+    }
+}
+
+extension ProductImageSlideSectionController: ListAdapterDataSource {
+
+    func objects(for listAdapter: ListAdapter) -> [ListDiffable] {
+        return images ?? []
+    }
+    
+    func listAdapter(_ listAdapter: ListAdapter, sectionControllerFor object: Any) -> ListSectionController {
+        return EmbeddedImageSectionController()
+    }
+    
+    func emptyView(for listAdapter: ListAdapter) -> UIView? {
+        return nil
+    }
+}
+

@@ -17,7 +17,10 @@ class ProductDetailsViewController: BaseViewController {
  
     var product: Product? {
         get {return self.model.product}
-        set {self.model.product = newValue}
+        set {
+            self.model.delegate = self
+            self.model.product = newValue
+        }
     }
     
     override func viewDidLoad() {
@@ -36,12 +39,8 @@ extension ProductDetailsViewController {
     
     func performUpdates(_ error: Error?) {
         
-        self.refreshCtl.endRefreshing()
+        self.controllerData = self.model.listData
         
-        self.listData = self.model.listData
-        self.isLoadMore = false
-        
-        self.updateSectionData(error)
         self.adapter.performUpdates(animated: true, completion: nil)
     }
     
@@ -55,21 +54,14 @@ extension ProductDetailsViewController {
             self.performUpdates(error)
         }
     }
-    
-    func loadNextPage() {
-        
-        self.model.loadNextPage { (error) in
-            self.performUpdates(error)
-        }
-    }
 }
 
 extension ProductDetailsViewController: ViewDataModelRefreshProtocol {
     
     func modelDidRefresh(object: Any, error: Error?){
         
-        if let products = object as? [Product] {
-            self.adapter.reloadObjects(products)
+        if object is [Any] {
+            performUpdates(nil)
         }
     }
 }
@@ -86,7 +78,15 @@ extension ProductDetailsViewController: ListAdapterDataSource {
             return section
         }
         
-        return ProductsSectionController()
+        if let _ = object as? [Image]{
+            return ProductImageSlideSectionController()
+        }
+        
+        if let _ = object as? ProductDesc {
+            return ProductOverviewController()
+        }
+        
+        return PriceSectionController()
     }
     
     func emptyView(for listAdapter: ListAdapter) -> UIView? {
